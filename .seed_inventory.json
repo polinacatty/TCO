@@ -1,0 +1,20 @@
+﻿.\.venv\Scripts\python.exe : Traceback (most recent call last):
+C:\Users\Polina\AppData\Local\Temp\ps-script-b58f034b-3423-4183-9940-e3a4cab09392.ps1:79 знак:1
++ .\.venv\Scripts\python.exe -c "
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<string>", line 16, in <module>
+  File "D:\тёх яюфЁ ф\diplom(new_version)\backend\.venv\Lib\site-packages\pandas\io\parquet.py", line 668, in read_parq
+uet
+    impl = get_engine(engine)
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\тёх яюфЁ ф\diplom(new_version)\backend\.venv\Lib\site-packages\pandas\io\parquet.py", line 68, in get_engine
+    raise ImportError(
+ImportError: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+ - `Import fastparquet` failed. fastparquet is required for parquet support. Use pip or conda to install the fastparque
+t package.

@@ -1,0 +1,393 @@
+# Service plan templates — sprint 3 step S3.2.
+#
+# Per-template default service schedule keyed by (segment × brand_tier).
+# Segments are the 6 used in depreciation_rates.csv and depreciation_calibration.csv:
+#   A_B, C_D, E_F, J_SUV, J_CROSS, LCV.
+# Brand tiers are the 5 used in car_makes.csv:
+#   russian, mass, japanese_korean_mass, chinese, premium.
+# Cartesian = 30 pairs, all of which must be covered by exactly one template.
+#`
+# Each operation references service_operations.csv by `code`. Intervals are
+# either every_km (mileage-based), every_months (calendar-based) or both
+# (whichever comes first). TCO counts a mileage hit only after each full
+# every_km interval (first service at 10_000 km when every_km=10_000).
+#
+# Sources for intervals: per-segment service manuals from owners' books
+# (Toyota / VAG / BMW / Geely / Chery / Haval / Lada / Renault), cross-checked
+# against drive2.ru per-model bortovye journals, 2025–2026. Full per-template
+# justification — 08_complex_components_methodology.md §2.
+#
+# This file feeds _service_plans_build.py (step 3.3) which fans out from
+# 10 templates to all 480 generations of car_generations.csv.
+
+version: "1.0"
+valid_from: "2026-04-28"
+
+# ---------------------------------------------------------------------------
+# Mapping (segment × brand_tier) -> template name. Cartesian must be complete.
+# Validator reconstructs the reverse index from `applies_to` lists below; this
+# section is here for human readability only.
+# ---------------------------------------------------------------------------
+#
+# segment    | russian              | mass               | jp_kr_mass         | chinese                   | premium
+# -----------|----------------------|--------------------|--------------------|---------------------------|---------------------------
+# A_B        | template_economy     | template_economy   | template_economy   | template_chinese_passenger| template_premium_passenger
+# C_D        | template_mid_size    | template_mid_size  | template_mid_size  | template_chinese_passenger| template_premium_passenger
+# E_F        | template_mid_size    | template_mid_size  | template_mid_size  | template_chinese_passenger| template_premium_passenger
+# J_SUV      | template_suv         | template_suv       | template_suv       | template_suv              | template_suv_premium
+# J_CROSS    | template_crossover   | template_crossover | template_crossover | template_chinese_crossover| template_premium_crossover
+# LCV        | template_lcv         | template_lcv       | template_lcv       | template_lcv              | template_lcv
+
+templates:
+
+  # =========================================================================
+  # 1. ECONOMY  —  A_B (russian/mass/jp_kr_mass)
+  # Lada Granta/Vesta, Renault Logan, VW Polo, Hyundai Solaris, Kia Rio
+  # =========================================================================
+  template_economy:
+    description: "A_B passenger cars, mass market (Lada/Renault/VW/Solaris/Rio)"
+    applies_to:
+      - {segment: A_B, brand_tier: russian}
+      - {segment: A_B, brand_tier: mass}
+      - {segment: A_B, brand_tier: japanese_korean_mass}
+    operations:
+      - {code: oil_change_engine,         every_km: 15000, every_months: 12}
+      - {code: oil_filter,                every_km: 15000, every_months: 12}
+      - {code: air_filter,                every_km: 30000, every_months: 24}
+      - {code: cabin_filter,              every_km: 15000, every_months: 12}
+      - {code: fuel_filter,               every_km: 60000, every_months: 48}
+      - {code: coolant_change,            every_km: 80000, every_months: 60}
+      - {code: brake_fluid_change,        every_km: 60000, every_months: 24}
+      - {code: brake_pads_front,          every_km: 40000}
+      - {code: brake_pads_rear,           every_km: 60000}
+      - {code: brake_discs_front,         every_km: 80000}
+      - {code: spark_plugs,               every_km: 30000, every_months: 36}
+      - {code: timing_belt_kit,           every_km: 90000, every_months: 72}
+      - {code: accessory_belt,            every_km: 60000, every_months: 60}
+      - {code: battery_replacement,       every_months: 48}
+      - {code: wiper_blades_front,        every_months: 12}
+      - {code: wiper_blades_rear,         every_months: 12}
+      - {code: diagnostics_full,          every_km: 15000, every_months: 12}
+      - {code: wheel_balancing,           every_km: 20000}
+      - {code: tyre_swap_seasonal,        every_months: 6}
+      - {code: ac_service,                every_months: 24}
+
+  # =========================================================================
+  # 2. MID_SIZE  —  C_D / E_F (russian/mass/jp_kr_mass)
+  # Skoda Octavia, Toyota Camry, Hyundai Sonata, Kia K5, VW Passat
+  # =========================================================================
+  template_mid_size:
+    description: "C/D/E/F passenger cars, mass market (Octavia, Camry, Sonata, K5)"
+    applies_to:
+      - {segment: C_D, brand_tier: russian}
+      - {segment: C_D, brand_tier: mass}
+      - {segment: C_D, brand_tier: japanese_korean_mass}
+      - {segment: E_F, brand_tier: russian}
+      - {segment: E_F, brand_tier: mass}
+      - {segment: E_F, brand_tier: japanese_korean_mass}
+    operations:
+      - {code: oil_change_engine,         every_km: 15000, every_months: 12}
+      - {code: oil_filter,                every_km: 15000, every_months: 12}
+      - {code: air_filter,                every_km: 30000, every_months: 24}
+      - {code: cabin_filter,              every_km: 15000, every_months: 12}
+      - {code: fuel_filter,               every_km: 60000, every_months: 48}
+      - {code: coolant_change,            every_km: 120000, every_months: 60}
+      - {code: brake_fluid_change,        every_km: 60000, every_months: 24}
+      - {code: brake_pads_front,          every_km: 50000}
+      - {code: brake_pads_rear,           every_km: 70000}
+      - {code: brake_discs_front,         every_km: 100000}
+      - {code: spark_plugs,               every_km: 60000, every_months: 60}
+      - {code: timing_belt_kit,           every_km: 100000, every_months: 72}
+      - {code: accessory_belt,            every_km: 80000, every_months: 60}
+      - {code: oil_change_atf,            every_km: 80000, every_months: 60}
+      - {code: power_steering_fluid_change, every_km: 120000, every_months: 84}
+      - {code: battery_replacement,       every_months: 48}
+      - {code: wiper_blades_front,        every_months: 12}
+      - {code: wiper_blades_rear,         every_months: 12}
+      - {code: diagnostics_full,          every_km: 15000, every_months: 12}
+      - {code: wheel_balancing,           every_km: 20000}
+      - {code: tyre_swap_seasonal,        every_months: 6}
+      - {code: ac_service,                every_months: 24}
+
+  # =========================================================================
+  # 3. CHINESE_PASSENGER  —  A_B / C_D / E_F + chinese
+  # Chery Tiggo (sedans), Geely Emgrand, Exeed TXL, Belgee S50
+  # NB: chinese OEMs require 10k oil intervals + 5k break-in service
+  # =========================================================================
+  template_chinese_passenger:
+    description: "A_B/C_D/E_F passenger cars, chinese (10k oil + break-in)"
+    applies_to:
+      - {segment: A_B,  brand_tier: chinese}
+      - {segment: C_D,  brand_tier: chinese}
+      - {segment: E_F,  brand_tier: chinese}
+    operations:
+      - {code: oil_change_engine,         every_km: 10000, every_months: 12}
+      - {code: oil_filter,                every_km: 10000, every_months: 12}
+      - {code: air_filter,                every_km: 20000, every_months: 24}
+      - {code: cabin_filter,              every_km: 10000, every_months: 12}
+      - {code: fuel_filter,               every_km: 40000, every_months: 48}
+      - {code: coolant_change,            every_km: 60000, every_months: 48}
+      - {code: brake_fluid_change,        every_km: 40000, every_months: 24}
+      - {code: brake_pads_front,          every_km: 40000}
+      - {code: brake_pads_rear,           every_km: 60000}
+      - {code: brake_discs_front,         every_km: 80000}
+      - {code: spark_plugs,               every_km: 60000, every_months: 60}
+      - {code: timing_chain_inspection,   every_km: 80000}
+      - {code: accessory_belt,            every_km: 80000, every_months: 60}
+      - {code: oil_change_atf,            every_km: 60000, every_months: 48}
+      - {code: battery_replacement,       every_months: 48}
+      - {code: wiper_blades_front,        every_months: 12}
+      - {code: wiper_blades_rear,         every_months: 12}
+      - {code: diagnostics_full,          every_km: 10000, every_months: 12}
+      - {code: wheel_balancing,           every_km: 20000}
+      - {code: tyre_swap_seasonal,        every_months: 6}
+      - {code: ac_service,                every_months: 24}
+
+  # =========================================================================
+  # 4. PREMIUM_PASSENGER  —  C_D / E_F (premium)
+  # BMW 3/5/7-series, Mercedes C/E/S, Audi A4/A6/A8, Lexus IS/ES/LS
+  # NB: BMW Service Inclusive uses 10k oil, BMW BluSpec brake fluid 24 mo
+  # =========================================================================
+  template_premium_passenger:
+    description: "C_D/E_F passenger cars, premium (BMW/MB/Audi/Lexus)"
+    applies_to:
+      - {segment: A_B, brand_tier: premium}
+      - {segment: C_D, brand_tier: premium}
+      - {segment: E_F, brand_tier: premium}
+    operations:
+      - {code: oil_change_engine,         every_km: 10000, every_months: 12}
+      - {code: oil_filter,                every_km: 10000, every_months: 12}
+      - {code: air_filter,                every_km: 20000, every_months: 24}
+      - {code: cabin_filter,              every_km: 10000, every_months: 12}
+      - {code: fuel_filter,               every_km: 40000, every_months: 48}
+      - {code: coolant_change,            every_km: 80000, every_months: 48}
+      - {code: brake_fluid_change,        every_km: 40000, every_months: 24}
+      - {code: brake_pads_front,          every_km: 40000}
+      - {code: brake_pads_rear,           every_km: 60000}
+      - {code: brake_discs_front,         every_km: 80000}
+      - {code: brake_discs_rear,          every_km: 100000}
+      - {code: spark_plugs,               every_km: 40000, every_months: 48}
+      - {code: timing_chain_inspection,   every_km: 60000}
+      - {code: accessory_belt,            every_km: 80000, every_months: 60}
+      - {code: oil_change_atf,            every_km: 40000, every_months: 48}
+      - {code: power_steering_fluid_change, every_km: 80000, every_months: 60}
+      - {code: rear_diff_oil_change,      every_km: 80000, every_months: 60}
+      - {code: battery_replacement,       every_months: 36}
+      - {code: wiper_blades_front,        every_months: 12}
+      - {code: wiper_blades_rear,         every_months: 12}
+      - {code: diagnostics_full,          every_km: 10000, every_months: 12}
+      - {code: wheel_alignment,           every_km: 40000}
+      - {code: wheel_balancing,           every_km: 15000}
+      - {code: tyre_swap_seasonal,        every_months: 6}
+      - {code: ac_service,                every_months: 24}
+
+  # =========================================================================
+  # 5. SUV  —  J_SUV (russian/mass/jp_kr_mass/chinese)
+  # Lada Niva, UAZ Patriot, Toyota LC Prado, Mitsubishi Pajero, Tank 300
+  # =========================================================================
+  template_suv:
+    description: "J_SUV body-on-frame off-roaders (Niva/Patriot/Prado/Pajero/Tank)"
+    applies_to:
+      - {segment: J_SUV, brand_tier: russian}
+      - {segment: J_SUV, brand_tier: mass}
+      - {segment: J_SUV, brand_tier: japanese_korean_mass}
+      - {segment: J_SUV, brand_tier: chinese}
+    operations:
+      - {code: oil_change_engine,         every_km: 10000, every_months: 12}
+      - {code: oil_filter,                every_km: 10000, every_months: 12}
+      - {code: air_filter,                every_km: 15000, every_months: 24}
+      - {code: cabin_filter,              every_km: 15000, every_months: 12}
+      - {code: fuel_filter,               every_km: 40000, every_months: 48}
+      - {code: coolant_change,            every_km: 60000, every_months: 36}
+      - {code: brake_fluid_change,        every_km: 40000, every_months: 24}
+      - {code: brake_pads_front,          every_km: 40000}
+      - {code: brake_pads_rear,           every_km: 60000}
+      - {code: brake_discs_front,         every_km: 80000}
+      - {code: spark_plugs,               every_km: 30000, every_months: 36}
+      - {code: timing_belt_kit,           every_km: 90000, every_months: 72}
+      - {code: accessory_belt,            every_km: 60000, every_months: 60}
+      - {code: oil_change_atf,            every_km: 60000, every_months: 48}
+      - {code: oil_change_mt,             every_km: 60000, every_months: 60}
+      - {code: rear_diff_oil_change,      every_km: 40000, every_months: 36}
+      - {code: battery_replacement,       every_months: 36}
+      - {code: wiper_blades_front,        every_months: 12}
+      - {code: wiper_blades_rear,         every_months: 12}
+      - {code: diagnostics_full,          every_km: 10000, every_months: 12}
+      - {code: wheel_alignment,           every_km: 20000}
+      - {code: wheel_balancing,           every_km: 15000}
+      - {code: tyre_swap_seasonal,        every_months: 6}
+      - {code: ac_service,                every_months: 24}
+
+  # =========================================================================
+  # 6. SUV_PREMIUM  —  J_SUV + premium
+  # BMW X5/X6/X7, Mercedes GLE/GLS, Range Rover, Lexus LX
+  # =========================================================================
+  template_suv_premium:
+    description: "J_SUV premium (BMW X5/X7, MB GLE/GLS, Range Rover, Lexus LX)"
+    applies_to:
+      - {segment: J_SUV, brand_tier: premium}
+    operations:
+      - {code: oil_change_engine,         every_km: 10000, every_months: 12}
+      - {code: oil_filter,                every_km: 10000, every_months: 12}
+      - {code: air_filter,                every_km: 20000, every_months: 24}
+      - {code: cabin_filter,              every_km: 10000, every_months: 12}
+      - {code: fuel_filter,               every_km: 40000, every_months: 48}
+      - {code: coolant_change,            every_km: 80000, every_months: 48}
+      - {code: brake_fluid_change,        every_km: 40000, every_months: 24}
+      - {code: brake_pads_front,          every_km: 40000}
+      - {code: brake_pads_rear,           every_km: 60000}
+      - {code: brake_discs_front,         every_km: 80000}
+      - {code: brake_discs_rear,          every_km: 100000}
+      - {code: spark_plugs,               every_km: 40000, every_months: 48}
+      - {code: timing_chain_inspection,   every_km: 60000}
+      - {code: accessory_belt,            every_km: 80000, every_months: 60}
+      - {code: oil_change_atf,            every_km: 40000, every_months: 48}
+      - {code: rear_diff_oil_change,      every_km: 60000, every_months: 60}
+      - {code: power_steering_fluid_change, every_km: 80000, every_months: 60}
+      - {code: battery_replacement,       every_months: 36}
+      - {code: wiper_blades_front,        every_months: 12}
+      - {code: wiper_blades_rear,         every_months: 12}
+      - {code: diagnostics_full,          every_km: 10000, every_months: 12}
+      - {code: wheel_alignment,           every_km: 30000}
+      - {code: wheel_balancing,           every_km: 15000}
+      - {code: tyre_swap_seasonal,        every_months: 6}
+      - {code: ac_service,                every_months: 24}
+
+  # =========================================================================
+  # 7. CROSSOVER  —  J_CROSS (russian/mass/jp_kr_mass)
+  # Toyota RAV4, VW Tiguan, Hyundai Tucson, Renault Duster
+  # =========================================================================
+  template_crossover:
+    description: "J_CROSS unibody crossovers, mass (RAV4/Tiguan/Tucson/Duster)"
+    applies_to:
+      - {segment: J_CROSS, brand_tier: russian}
+      - {segment: J_CROSS, brand_tier: mass}
+      - {segment: J_CROSS, brand_tier: japanese_korean_mass}
+    operations:
+      - {code: oil_change_engine,         every_km: 15000, every_months: 12}
+      - {code: oil_filter,                every_km: 15000, every_months: 12}
+      - {code: air_filter,                every_km: 30000, every_months: 24}
+      - {code: cabin_filter,              every_km: 15000, every_months: 12}
+      - {code: fuel_filter,               every_km: 60000, every_months: 48}
+      - {code: coolant_change,            every_km: 80000, every_months: 48}
+      - {code: brake_fluid_change,        every_km: 60000, every_months: 24}
+      - {code: brake_pads_front,          every_km: 50000}
+      - {code: brake_pads_rear,           every_km: 70000}
+      - {code: brake_discs_front,         every_km: 100000}
+      - {code: spark_plugs,               every_km: 60000, every_months: 60}
+      - {code: timing_belt_kit,           every_km: 100000, every_months: 72}
+      - {code: accessory_belt,            every_km: 80000, every_months: 60}
+      - {code: oil_change_atf,            every_km: 60000, every_months: 48}
+      - {code: rear_diff_oil_change,      every_km: 60000, every_months: 60}
+      - {code: battery_replacement,       every_months: 48}
+      - {code: wiper_blades_front,        every_months: 12}
+      - {code: wiper_blades_rear,         every_months: 12}
+      - {code: diagnostics_full,          every_km: 15000, every_months: 12}
+      - {code: wheel_alignment,           every_km: 30000}
+      - {code: wheel_balancing,           every_km: 20000}
+      - {code: tyre_swap_seasonal,        every_months: 6}
+      - {code: ac_service,                every_months: 24}
+
+  # =========================================================================
+  # 8. CHINESE_CROSSOVER  —  J_CROSS + chinese
+  # Geely Coolray/Atlas, Chery Tiggo 4/7/8, Haval Jolion/F7/H6, Tank 500
+  # =========================================================================
+  template_chinese_crossover:
+    description: "J_CROSS chinese crossovers (Coolray/Tiggo/Jolion/Atlas)"
+    applies_to:
+      - {segment: J_CROSS, brand_tier: chinese}
+    operations:
+      - {code: oil_change_engine,         every_km: 10000, every_months: 12}
+      - {code: oil_filter,                every_km: 10000, every_months: 12}
+      - {code: air_filter,                every_km: 20000, every_months: 24}
+      - {code: cabin_filter,              every_km: 10000, every_months: 12}
+      - {code: fuel_filter,               every_km: 40000, every_months: 48}
+      - {code: coolant_change,            every_km: 60000, every_months: 48}
+      - {code: brake_fluid_change,        every_km: 40000, every_months: 24}
+      - {code: brake_pads_front,          every_km: 40000}
+      - {code: brake_pads_rear,           every_km: 60000}
+      - {code: brake_discs_front,         every_km: 80000}
+      - {code: spark_plugs,               every_km: 60000, every_months: 60}
+      - {code: timing_chain_inspection,   every_km: 80000}
+      - {code: accessory_belt,            every_km: 80000, every_months: 60}
+      - {code: oil_change_atf,            every_km: 60000, every_months: 48}
+      - {code: rear_diff_oil_change,      every_km: 40000, every_months: 36}
+      - {code: battery_replacement,       every_months: 48}
+      - {code: wiper_blades_front,        every_months: 12}
+      - {code: wiper_blades_rear,         every_months: 12}
+      - {code: diagnostics_full,          every_km: 10000, every_months: 12}
+      - {code: wheel_alignment,           every_km: 30000}
+      - {code: wheel_balancing,           every_km: 20000}
+      - {code: tyre_swap_seasonal,        every_months: 6}
+      - {code: ac_service,                every_months: 24}
+
+  # =========================================================================
+  # 9. PREMIUM_CROSSOVER  —  J_CROSS + premium
+  # BMW X1/X3, Audi Q3/Q5, Mercedes GLA/GLC, Lexus NX/RX, Porsche Macan
+  # =========================================================================
+  template_premium_crossover:
+    description: "J_CROSS premium crossovers (X1/X3, Q3/Q5, GLC, NX/RX, Macan)"
+    applies_to:
+      - {segment: J_CROSS, brand_tier: premium}
+    operations:
+      - {code: oil_change_engine,         every_km: 10000, every_months: 12}
+      - {code: oil_filter,                every_km: 10000, every_months: 12}
+      - {code: air_filter,                every_km: 20000, every_months: 24}
+      - {code: cabin_filter,              every_km: 10000, every_months: 12}
+      - {code: fuel_filter,               every_km: 40000, every_months: 48}
+      - {code: coolant_change,            every_km: 80000, every_months: 48}
+      - {code: brake_fluid_change,        every_km: 40000, every_months: 24}
+      - {code: brake_pads_front,          every_km: 40000}
+      - {code: brake_pads_rear,           every_km: 60000}
+      - {code: brake_discs_front,         every_km: 80000}
+      - {code: brake_discs_rear,          every_km: 100000}
+      - {code: spark_plugs,               every_km: 40000, every_months: 48}
+      - {code: timing_chain_inspection,   every_km: 60000}
+      - {code: accessory_belt,            every_km: 80000, every_months: 60}
+      - {code: oil_change_atf,            every_km: 40000, every_months: 48}
+      - {code: power_steering_fluid_change, every_km: 80000, every_months: 60}
+      - {code: rear_diff_oil_change,      every_km: 60000, every_months: 60}
+      - {code: battery_replacement,       every_months: 36}
+      - {code: wiper_blades_front,        every_months: 12}
+      - {code: wiper_blades_rear,         every_months: 12}
+      - {code: diagnostics_full,          every_km: 10000, every_months: 12}
+      - {code: wheel_alignment,           every_km: 30000}
+      - {code: wheel_balancing,           every_km: 15000}
+      - {code: tyre_swap_seasonal,        every_months: 6}
+      - {code: ac_service,                every_months: 24}
+
+  # =========================================================================
+  # 10. LCV  —  LCV (all tiers)
+  # Lada Largus, Renault Kangoo, VW Caddy, Ford Transit Connect
+  # NB: shorter intervals due to commercial load
+  # =========================================================================
+  template_lcv:
+    description: "Light commercial vehicles (Largus/Kangoo/Caddy/Transit Connect)"
+    applies_to:
+      - {segment: LCV, brand_tier: russian}
+      - {segment: LCV, brand_tier: mass}
+      - {segment: LCV, brand_tier: japanese_korean_mass}
+      - {segment: LCV, brand_tier: chinese}
+      - {segment: LCV, brand_tier: premium}
+    operations:
+      - {code: oil_change_engine,         every_km: 10000, every_months: 12}
+      - {code: oil_filter,                every_km: 10000, every_months: 12}
+      - {code: air_filter,                every_km: 20000, every_months: 24}
+      - {code: cabin_filter,              every_km: 10000, every_months: 12}
+      - {code: fuel_filter,               every_km: 40000, every_months: 48}
+      - {code: coolant_change,            every_km: 60000, every_months: 48}
+      - {code: brake_fluid_change,        every_km: 40000, every_months: 24}
+      - {code: brake_pads_front,          every_km: 30000}
+      - {code: brake_pads_rear,           every_km: 50000}
+      - {code: brake_discs_front,         every_km: 60000}
+      - {code: spark_plugs,               every_km: 30000, every_months: 36}
+      - {code: timing_belt_kit,           every_km: 80000, every_months: 60}
+      - {code: accessory_belt,            every_km: 60000, every_months: 60}
+      - {code: oil_change_mt,             every_km: 60000, every_months: 60}
+      - {code: battery_replacement,       every_months: 36}
+      - {code: wiper_blades_front,        every_months: 12}
+      - {code: wiper_blades_rear,         every_months: 12}
+      - {code: diagnostics_full,          every_km: 10000, every_months: 12}
+      - {code: wheel_alignment,           every_km: 20000}
+      - {code: wheel_balancing,           every_km: 20000}
+      - {code: tyre_swap_seasonal,        every_months: 6}

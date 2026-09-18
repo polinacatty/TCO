@@ -1,0 +1,37 @@
+# Python pipelines for data collection (sprint 1).
+# Pinned to lower bounds compatible with what's installed on the dev machine.
+# Bump as needed; we lock exact versions only in CI.
+
+# HTTP client.
+# We use curl_cffi (not httpx / requests) because fedstat.ru's WAF
+# performs TLS fingerprinting (JA3): pure-Python TLS stacks are blocked
+# with HTTP 403 regardless of headers.  curl_cffi delegates the handshake
+# to libcurl with Chrome's exact cipher suites / ALPN order, which gets
+# us past the WAF.  See docs/03_data_collection/03_fuel_data_recon.md.
+curl_cffi>=0.7,<1.0
+
+# httpx is kept for non-fedstat sources (CBR, plain Rosstat XLSX, etc.)
+# where pure-Python TLS works fine.
+httpx>=0.26,<1.0
+
+# HTML parsing
+beautifulsoup4>=4.12,<5.0
+lxml>=5.1,<7.0
+
+# Data processing
+pandas>=2.2,<3.0
+pyarrow>=15.0,<25.0
+
+# Retries with exponential backoff
+tenacity>=8.2,<10.0
+
+# Date/period helpers
+python-dateutil>=2.9,<3.0
+
+# EDA-ноутбук по топливу (шаг 1.6): ADF, seasonal_decompose, ACF/PACF
+statsmodels>=0.14,<1.0
+matplotlib>=3.8,<4.0
+nbformat>=5.9,<6.0
+
+# YAML-шаблоны регламентов ТО (шаг 3.2)
+pyyaml>=6.0,<7.0

@@ -1,0 +1,481 @@
+id,make_id,name,name_normalized,segment,body_type
+1,1,Granta,granta,B,sedan
+2,1,Vesta,vesta,B,sedan
+3,1,Niva Legend,nivalegend,J_SUV,suv
+4,1,Niva Travel,nivatravel,J_CROSS,crossover
+5,1,Largus,largus,M_MPV,mpv
+6,1,Iskra,iskra,B,sedan
+7,1,X-Ray,xray,J_CROSS,crossover
+8,1,Priora,priora,C,sedan
+9,1,Kalina,kalina,B,hatchback
+10,1,Aura,aura,B,sedan
+11,2,Patriot,patriot,J_SUV,suv
+12,2,Hunter,hunter,J_SUV,suv
+13,2,Profi,profi,LCV,pickup
+14,2,3909,3909,J_SUV,mpv
+15,2,Pickup,pickup,LCV,pickup
+16,3,GAZelle Next,gazellenext,LCV,mpv
+17,3,GAZelle NN,gazellenn,LCV,mpv
+18,3,Sobol,sobol,LCV,mpv
+19,4,3,3,J_CROSS,crossover
+20,4,5,5,J_CROSS,crossover
+21,4,6,6,D,sedan
+22,4,8,8,J_CROSS,crossover
+23,5,Senat,senat,F,sedan
+24,5,Komendant,komendant,J_CROSS,crossover
+25,6,Argo,argo,LCV,pickup
+26,6,ST6,st6,LCV,mpv
+27,7,K30,k30,D,sedan
+28,7,S40,s40,D,sedan
+29,11,Logan,logan,B,sedan
+30,11,Sandero,sandero,B,hatchback
+31,11,Sandero Stepway,sanderostepway,J_CROSS,hatchback
+32,11,Duster,duster,J_CROSS,crossover
+33,11,Kaptur,kaptur,J_CROSS,crossover
+34,11,Arkana,arkana,J_CROSS,crossover
+35,11,Megane,megane,C,hatchback
+36,11,Fluence,fluence,C,sedan
+37,11,Clio,clio,B,hatchback
+38,12,308,308,C,hatchback
+39,12,408,408,D,sedan
+40,12,508,508,D,sedan
+41,12,2008,2008,J_CROSS,crossover
+42,12,3008,3008,J_CROSS,crossover
+43,12,4008,4008,J_CROSS,crossover
+44,12,5008,5008,J_CROSS,crossover
+45,13,C3,c3,B,hatchback
+46,13,C4,c4,C,hatchback
+47,13,C5 Aircross,c5aircross,J_CROSS,crossover
+48,13,C-Elysee,celysee,B,sedan
+49,13,Berlingo,berlingo,M_MPV,mpv
+50,14,Rapid,rapid,B,sedan
+51,14,Octavia,octavia,C,liftback
+52,14,Superb,superb,D,liftback
+53,14,Karoq,karoq,J_CROSS,crossover
+54,14,Kodiaq,kodiaq,J_CROSS,crossover
+55,14,Kamiq,kamiq,J_CROSS,crossover
+56,14,Yeti,yeti,J_CROSS,crossover
+57,14,Fabia,fabia,B,hatchback
+58,15,Polo,polo,B,sedan
+59,15,Golf,golf,C,hatchback
+60,15,Jetta,jetta,C,sedan
+61,15,Passat,passat,D,sedan
+62,15,Tiguan,tiguan,J_CROSS,crossover
+63,15,Touareg,touareg,J_CROSS,crossover
+64,15,Teramont,teramont,J_CROSS,crossover
+65,15,Multivan,multivan,M_MPV,mpv
+66,15,T-Roc,troc,J_CROSS,crossover
+67,16,Astra,astra,C,hatchback
+68,16,Insignia,insignia,D,sedan
+69,16,Mokka,mokka,J_CROSS,crossover
+70,16,Antara,antara,J_CROSS,crossover
+71,16,Zafira,zafira,M_MPV,mpv
+72,17,Leon,leon,C,hatchback
+73,17,Ibiza,ibiza,B,hatchback
+74,17,Ateca,ateca,J_CROSS,crossover
+75,18,Sandero,sandero,B,hatchback
+76,18,Logan,logan,B,sedan
+77,18,Duster,duster,J_CROSS,crossover
+78,19,Punto,punto,B,hatchback
+79,19,500,500,A,hatchback
+80,19,Tipo,tipo,C,sedan
+81,19,Panda,panda,A,hatchback
+82,20,Focus,focus,C,hatchback
+83,20,Mondeo,mondeo,D,sedan
+84,20,Fiesta,fiesta,B,hatchback
+85,20,Kuga,kuga,J_CROSS,crossover
+86,20,Ecosport,ecosport,J_CROSS,crossover
+87,20,Explorer,explorer,J_CROSS,crossover
+88,20,Edge,edge,J_CROSS,crossover
+89,20,Mustang,mustang,S_SPORT,coupe
+90,21,Cruze,cruze,C,sedan
+91,21,Aveo,aveo,B,sedan
+92,21,Lacetti,lacetti,C,sedan
+93,21,Niva,niva,J_SUV,suv
+94,21,Captiva,captiva,J_CROSS,crossover
+95,21,Tahoe,tahoe,J_SUV,suv
+96,21,Camaro,camaro,S_SPORT,coupe
+97,22,Charger,charger,E,sedan
+98,22,Challenger,challenger,S_SPORT,coupe
+99,22,RAM 1500,ram1500,LCV,pickup
+100,22,Durango,durango,J_SUV,suv
+101,23,300C,300c,E,sedan
+102,23,Pacifica,pacifica,M_MPV,mpv
+103,24,Wrangler,wrangler,J_SUV,suv
+104,24,Cherokee,cherokee,J_CROSS,crossover
+105,24,Grand Cherokee,grandcherokee,J_SUV,suv
+106,24,Compass,compass,J_CROSS,crossover
+107,24,Renegade,renegade,J_CROSS,crossover
+108,25,Cooper,cooper,B,hatchback
+109,25,Countryman,countryman,J_CROSS,crossover
+110,25,Clubman,clubman,B,wagon
+111,26,ForTwo,fortwo,A,hatchback
+112,26,ForFour,forfour,A,hatchback
+113,27,Corolla,corolla,C,sedan
+114,27,Camry,camry,D,sedan
+115,27,RAV4,rav4,J_CROSS,crossover
+116,27,Land Cruiser,landcruiser,J_SUV,suv
+117,27,Land Cruiser Prado,landcruiserprado,J_SUV,suv
+118,27,Highlander,highlander,J_CROSS,crossover
+119,27,Hilux,hilux,LCV,pickup
+120,27,Fortuner,fortuner,J_SUV,suv
+121,27,C-HR,chr,J_CROSS,crossover
+122,27,Yaris,yaris,B,hatchback
+123,27,Auris,auris,C,hatchback
+124,27,Avensis,avensis,D,sedan
+125,27,Hiace,hiace,M_MPV,mpv
+126,28,Civic,civic,C,sedan
+127,28,Accord,accord,D,sedan
+128,28,CR-V,crv,J_CROSS,crossover
+129,28,HR-V,hrv,J_CROSS,crossover
+130,28,Pilot,pilot,J_CROSS,crossover
+131,28,Jazz,jazz,B,hatchback
+132,28,Odyssey,odyssey,M_MPV,mpv
+133,29,3,3,C,sedan
+134,29,6,6,D,sedan
+135,29,CX-5,cx5,J_CROSS,crossover
+136,29,CX-30,cx30,J_CROSS,crossover
+137,29,CX-9,cx9,J_CROSS,crossover
+138,29,MX-5,mx5,S_SPORT,cabriolet
+139,30,Forester,forester,J_CROSS,crossover
+140,30,Outback,outback,J_CROSS,wagon
+141,30,Impreza,impreza,C,sedan
+142,30,XV,xv,J_CROSS,crossover
+143,30,Legacy,legacy,D,sedan
+144,30,WRX,wrx,S_SPORT,sedan
+145,31,Almera,almera,B,sedan
+146,31,Qashqai,qashqai,J_CROSS,crossover
+147,31,X-Trail,xtrail,J_CROSS,crossover
+148,31,Murano,murano,J_CROSS,crossover
+149,31,Patrol,patrol,J_SUV,suv
+150,31,Pathfinder,pathfinder,J_CROSS,crossover
+151,31,Terrano,terrano,J_CROSS,crossover
+152,31,Note,note,B,hatchback
+153,31,Tiida,tiida,C,sedan
+154,31,Juke,juke,J_CROSS,crossover
+155,31,GT-R,gtr,S_SPORT,coupe
+156,31,Leaf,leaf,C,hatchback
+157,32,Lancer,lancer,C,sedan
+158,32,Outlander,outlander,J_CROSS,crossover
+159,32,ASX,asx,J_CROSS,crossover
+160,32,Pajero,pajero,J_SUV,suv
+161,32,Pajero Sport,pajerosport,J_SUV,suv
+162,32,L200,l200,LCV,pickup
+163,32,Eclipse Cross,eclipsecross,J_CROSS,crossover
+164,33,Vitara,vitara,J_CROSS,crossover
+165,33,SX4,sx4,J_CROSS,crossover
+166,33,Jimny,jimny,J_SUV,suv
+167,33,Swift,swift,B,hatchback
+168,33,Grand Vitara,grandvitara,J_SUV,suv
+169,34,Terios,terios,J_CROSS,crossover
+170,35,D-Max,dmax,LCV,pickup
+171,35,MU-X,mux,J_SUV,suv
+172,36,on-DO,ondo,B,sedan
+173,36,mi-DO,mido,B,hatchback
+174,37,Solaris,solaris,B,sedan
+175,37,Accent,accent,B,sedan
+176,37,Elantra,elantra,C,sedan
+177,37,Sonata,sonata,D,sedan
+178,37,Creta,creta,J_CROSS,crossover
+179,37,Tucson,tucson,J_CROSS,crossover
+180,37,Santa Fe,santafe,J_CROSS,crossover
+181,37,Palisade,palisade,J_CROSS,crossover
+182,37,ix35,ix35,J_CROSS,crossover
+183,37,i30,i30,C,hatchback
+184,37,Veloster,veloster,C,hatchback
+185,37,Staria,staria,M_MPV,mpv
+186,38,Rio,rio,B,sedan
+187,38,Cerato,cerato,C,sedan
+188,38,Optima,optima,D,sedan
+189,38,Sportage,sportage,J_CROSS,crossover
+190,38,Sorento,sorento,J_CROSS,crossover
+191,38,Soul,soul,B,hatchback
+192,38,Picanto,picanto,A,hatchback
+193,38,Mohave,mohave,J_SUV,suv
+194,38,Stinger,stinger,E,sedan
+195,38,Cee'd,ceed,C,hatchback
+196,38,Carnival,carnival,M_MPV,mpv
+197,38,Seltos,seltos,J_CROSS,crossover
+198,38,K5,k5,D,sedan
+199,39,Actyon,actyon,J_CROSS,crossover
+200,39,Kyron,kyron,J_SUV,suv
+201,39,Rexton,rexton,J_SUV,suv
+202,40,Nexia,nexia,B,sedan
+203,40,Matiz,matiz,A,hatchback
+204,40,Lanos,lanos,B,sedan
+205,41,Coolray,coolray,J_CROSS,crossover
+206,41,Atlas,atlas,J_CROSS,crossover
+207,41,Atlas Pro,atlaspro,J_CROSS,crossover
+208,41,Tugella,tugella,J_CROSS,crossover
+209,41,Monjaro,monjaro,J_CROSS,crossover
+210,41,Emgrand,emgrand,C,sedan
+211,41,Preface,preface,D,sedan
+212,41,Okavango,okavango,J_CROSS,crossover
+213,41,Cityray,cityray,J_CROSS,crossover
+214,42,Tiggo 4,tiggo4,J_CROSS,crossover
+215,42,Tiggo 7 Pro,tiggo7pro,J_CROSS,crossover
+216,42,Tiggo 8 Pro,tiggo8pro,J_CROSS,crossover
+217,42,Tiggo 8 Pro Max,tiggo8promax,J_CROSS,crossover
+218,42,Arrizo 8,arrizo8,D,sedan
+219,42,Tiggo 9,tiggo9,J_CROSS,crossover
+220,43,Jolion,jolion,J_CROSS,crossover
+221,43,F7,f7,J_CROSS,crossover
+222,43,F7x,f7x,J_CROSS,crossover
+223,43,H6,h6,J_CROSS,crossover
+224,43,H9,h9,J_SUV,suv
+225,43,M6,m6,J_CROSS,crossover
+226,43,Dargo,dargo,J_CROSS,crossover
+227,44,Wingle,wingle,LCV,pickup
+228,44,Hover,hover,J_SUV,suv
+229,44,Poer,poer,LCV,pickup
+230,45,CS35 Plus,cs35plus,J_CROSS,crossover
+231,45,CS55 Plus,cs55plus,J_CROSS,crossover
+232,45,CS75 Plus,cs75plus,J_CROSS,crossover
+233,45,CS95,cs95,J_CROSS,crossover
+234,45,UNI-K,unik,J_CROSS,crossover
+235,45,UNI-V,univ,D,sedan
+236,45,Eado,eado,C,sedan
+237,45,Lamore,lamore,B,sedan
+238,46,TXL,txl,J_CROSS,crossover
+239,46,LX,lx,J_CROSS,crossover
+240,46,VX,vx,J_CROSS,crossover
+241,46,RX,rx,J_CROSS,crossover
+242,46,Pioneer,pioneer,J_CROSS,crossover
+243,47,C5,c5,J_CROSS,crossover
+244,47,S5,s5,C,sedan
+245,47,7,7,J_CROSS,crossover
+246,48,J7,j7,J_CROSS,crossover
+247,48,J8,j8,J_CROSS,crossover
+248,49,300,300,J_SUV,suv
+249,49,500,500,J_SUV,suv
+250,49,700,700,J_SUV,suv
+251,50,H5,h5,D,sedan
+252,50,H9,h9,F,sedan
+253,50,HS5,hs5,J_CROSS,crossover
+254,50,E-HS9,ehs9,J_SUV,suv
+255,51,GS5,gs5,J_CROSS,crossover
+256,51,GS8,gs8,J_CROSS,crossover
+257,51,GN8,gn8,M_MPV,mpv
+258,52,JS3,js3,J_CROSS,crossover
+259,52,JS4,js4,J_CROSS,crossover
+260,52,JS6,js6,J_CROSS,crossover
+261,52,T6,t6,LCV,pickup
+262,52,T9,t9,LCV,pickup
+263,53,BJ40,bj40,J_SUV,suv
+264,53,BJ60,bj60,J_SUV,suv
+265,53,BJ80,bj80,J_SUV,suv
+266,53,X35,x35,J_CROSS,crossover
+267,53,X55,x55,J_CROSS,crossover
+268,53,X7,x7,J_CROSS,crossover
+269,53,U5 Plus,u5plus,C,sedan
+270,54,Song Plus,songplus,J_CROSS,crossover
+271,54,Han,han,E,sedan
+272,54,Tang,tang,J_CROSS,crossover
+273,54,Atto 3,atto3,J_CROSS,crossover
+274,54,Seal,seal,D,sedan
+275,54,Seagull,seagull,A,hatchback
+276,55,X60,x60,J_CROSS,crossover
+277,55,Solano,solano,C,sedan
+278,56,V5,v5,J_CROSS,crossover
+279,56,H230,h230,B,sedan
+280,57,AX7,ax7,J_CROSS,crossover
+281,57,580,580,J_CROSS,crossover
+282,58,Bestune T55,bestunet55,J_CROSS,crossover
+283,58,Bestune T77,bestunet77,J_CROSS,crossover
+284,58,Bestune T99,bestunet99,J_CROSS,crossover
+285,59,Sauvana,sauvana,J_SUV,suv
+286,60,T600,t600,J_CROSS,crossover
+287,61,M5,m5,J_CROSS,crossover
+288,61,M7,m7,J_CROSS,crossover
+289,61,M9,m9,J_CROSS,crossover
+290,62,L7,l7,J_CROSS,crossover
+291,62,L8,l8,J_CROSS,crossover
+292,62,L9,l9,J_CROSS,crossover
+293,62,ONE,one,J_CROSS,crossover
+294,63,SU7,su7,D,sedan
+295,64,001,001,E,liftback
+296,64,007,007,D,sedan
+297,64,009,009,M_MPV,mpv
+298,64,X,x,J_CROSS,crossover
+299,65,11,11,J_CROSS,crossover
+300,65,12,12,E,sedan
+301,66,X3 Pro,x3pro,J_CROSS,crossover
+302,66,X6 Pro,x6pro,J_CROSS,crossover
+303,67,M-HERO 1,mhero1,J_SUV,suv
+304,68,3,3,J_CROSS,crossover
+305,68,5,5,J_CROSS,crossover
+306,69,ET5,et5,J_CROSS,crossover
+307,70,X3,x3,J_CROSS,crossover
+308,70,X3 Pro,x3pro,J_CROSS,crossover
+309,70,E5,e5,C,sedan
+310,71,Free,free,J_CROSS,crossover
+311,71,Dream,dream,M_MPV,mpv
+312,71,Courage,courage,J_CROSS,crossover
+313,71,Passion,passion,E,sedan
+314,72,X,x,J_CROSS,crossover
+315,72,Y,y,J_CROSS,crossover
+316,72,Z,z,F,sedan
+317,73,ES6,es6,J_CROSS,crossover
+318,73,ES8,es8,J_CROSS,crossover
+319,73,ET7,et7,E,sedan
+320,74,Hongguang Mini EV,hongguangminiev,A,hatchback
+321,75,ZS,zs,J_CROSS,crossover
+322,75,HS,hs,J_CROSS,crossover
+323,75,6,6,C,sedan
+324,75,5,5,C,sedan
+325,76,1 Series,1series,C,hatchback
+326,76,2 Series,2series,C,coupe
+327,76,3 Series,3series,D,sedan
+328,76,4 Series,4series,D,coupe
+329,76,5 Series,5series,E,sedan
+330,76,6 Series,6series,E,coupe
+331,76,7 Series,7series,F,sedan
+332,76,8 Series,8series,F,coupe
+333,76,X1,x1,J_CROSS,crossover
+334,76,X2,x2,J_CROSS,crossover
+335,76,X3,x3,J_CROSS,crossover
+336,76,X4,x4,J_CROSS,crossover
+337,76,X5,x5,J_CROSS,crossover
+338,76,X6,x6,J_CROSS,crossover
+339,76,X7,x7,J_CROSS,crossover
+340,76,Z4,z4,S_SPORT,cabriolet
+341,76,M3,m3,S_SPORT,sedan
+342,76,M5,m5,S_SPORT,sedan
+343,76,iX,ix,J_CROSS,crossover
+344,76,i4,i4,E,liftback
+345,77,A-Class,aclass,C,hatchback
+346,77,B-Class,bclass,C,hatchback
+347,77,C-Class,cclass,D,sedan
+348,77,E-Class,eclass,E,sedan
+349,77,S-Class,sclass,F,sedan
+350,77,CLA,cla,C,sedan
+351,77,CLS,cls,E,sedan
+352,77,GLA,gla,J_CROSS,crossover
+353,77,GLB,glb,J_CROSS,crossover
+354,77,GLC,glc,J_CROSS,crossover
+355,77,GLE,gle,J_CROSS,crossover
+356,77,GLS,gls,J_CROSS,crossover
+357,77,G-Class,gclass,J_SUV,suv
+358,77,V-Class,vclass,M_MPV,mpv
+359,77,EQS,eqs,F,sedan
+360,77,AMG GT,amggt,S_SPORT,coupe
+361,78,A1,a1,B,hatchback
+362,78,A3,a3,C,hatchback
+363,78,A4,a4,D,sedan
+364,78,A5,a5,D,coupe
+365,78,A6,a6,E,sedan
+366,78,A7,a7,E,liftback
+367,78,A8,a8,F,sedan
+368,78,Q3,q3,J_CROSS,crossover
+369,78,Q5,q5,J_CROSS,crossover
+370,78,Q7,q7,J_CROSS,crossover
+371,78,Q8,q8,J_CROSS,crossover
+372,78,e-tron,etron,J_CROSS,crossover
+373,78,RS6,rs6,S_SPORT,wagon
+374,79,911,911,S_SPORT,coupe
+375,79,718 Cayman,718cayman,S_SPORT,coupe
+376,79,718 Boxster,718boxster,S_SPORT,cabriolet
+377,79,Cayenne,cayenne,J_CROSS,crossover
+378,79,Macan,macan,J_CROSS,crossover
+379,79,Panamera,panamera,F,liftback
+380,79,Taycan,taycan,E,sedan
+381,80,ES,es,E,sedan
+382,80,IS,is,D,sedan
+383,80,LS,ls,F,sedan
+384,80,NX,nx,J_CROSS,crossover
+385,80,RX,rx,J_CROSS,crossover
+386,80,GX,gx,J_SUV,suv
+387,80,LX,lx,J_SUV,suv
+388,80,UX,ux,J_CROSS,crossover
+389,80,RC,rc,D,coupe
+390,81,Defender,defender,J_SUV,suv
+391,81,Discovery,discovery,J_CROSS,crossover
+392,81,Discovery Sport,discoverysport,J_CROSS,crossover
+393,81,Range Rover,rangerover,J_CROSS,crossover
+394,81,Range Rover Sport,rangeroversport,J_CROSS,crossover
+395,81,Range Rover Velar,rangerovervelar,J_CROSS,crossover
+396,81,Range Rover Evoque,rangeroverevoque,J_CROSS,crossover
+397,81,Freelander,freelander,J_CROSS,crossover
+398,82,Escalade,escalade,J_SUV,suv
+399,82,XT5,xt5,J_CROSS,crossover
+400,82,CT6,ct6,F,sedan
+401,83,S60,s60,D,sedan
+402,83,S90,s90,E,sedan
+403,83,V60,v60,D,wagon
+404,83,V90,v90,E,wagon
+405,83,XC40,xc40,J_CROSS,crossover
+406,83,XC60,xc60,J_CROSS,crossover
+407,83,XC90,xc90,J_CROSS,crossover
+408,84,QX50,qx50,J_CROSS,crossover
+409,84,QX60,qx60,J_CROSS,crossover
+410,84,QX70,qx70,J_CROSS,crossover
+411,84,QX80,qx80,J_SUV,suv
+412,84,Q50,q50,D,sedan
+413,84,Q70,q70,E,sedan
+414,85,F-Pace,fpace,J_CROSS,crossover
+415,85,E-Pace,epace,J_CROSS,crossover
+416,85,I-Pace,ipace,J_CROSS,crossover
+417,85,XE,xe,D,sedan
+418,85,XF,xf,E,sedan
+419,85,XJ,xj,F,sedan
+420,85,F-Type,ftype,S_SPORT,coupe
+421,86,G70,g70,D,sedan
+422,86,G80,g80,E,sedan
+423,86,G90,g90,F,sedan
+424,86,GV70,gv70,J_CROSS,crossover
+425,86,GV80,gv80,J_CROSS,crossover
+426,86,GV60,gv60,J_CROSS,crossover
+427,87,Model S,models,F,liftback
+428,87,Model 3,model3,D,sedan
+429,87,Model X,modelx,J_CROSS,crossover
+430,87,Model Y,modely,J_CROSS,crossover
+431,87,Cybertruck,cybertruck,LCV,pickup
+432,88,Aviator,aviator,J_CROSS,crossover
+433,88,Navigator,navigator,J_SUV,suv
+434,88,Nautilus,nautilus,J_CROSS,crossover
+435,88,Corsair,corsair,J_CROSS,crossover
+436,89,Continental GT,continentalgt,F,coupe
+437,89,Bentayga,bentayga,J_CROSS,crossover
+438,89,Flying Spur,flyingspur,F,sedan
+439,89,Mulsanne,mulsanne,F,sedan
+440,90,Phantom,phantom,F,sedan
+441,90,Ghost,ghost,F,sedan
+442,90,Cullinan,cullinan,J_SUV,suv
+443,90,Spectre,spectre,F,coupe
+444,90,Wraith,wraith,F,coupe
+445,91,DB11,db11,F,coupe
+446,91,Vantage,vantage,S_SPORT,coupe
+447,91,DBS,dbs,F,coupe
+448,91,DBX,dbx,J_CROSS,crossover
+449,91,Rapide,rapide,F,sedan
+450,92,296 GTB,296gtb,S_SPORT,coupe
+451,92,F8 Tributo,f8tributo,S_SPORT,coupe
+452,92,Roma,roma,S_SPORT,coupe
+453,92,SF90,sf90,S_SPORT,coupe
+454,92,Purosangue,purosangue,J_CROSS,crossover
+455,92,812 Superfast,812superfast,S_SPORT,coupe
+456,92,Portofino,portofino,S_SPORT,cabriolet
+457,93,Huracan,huracan,S_SPORT,coupe
+458,93,Aventador,aventador,S_SPORT,coupe
+459,93,Urus,urus,J_CROSS,crossover
+460,93,Revuelto,revuelto,S_SPORT,coupe
+461,94,Ghibli,ghibli,E,sedan
+462,94,Quattroporte,quattroporte,F,sedan
+463,94,Levante,levante,J_CROSS,crossover
+464,94,Grecale,grecale,J_CROSS,crossover
+465,94,MC20,mc20,S_SPORT,coupe
+466,95,720S,720s,S_SPORT,coupe
+467,95,GT,gt,S_SPORT,coupe
+468,95,Artura,artura,S_SPORT,coupe
+469,96,Chiron,chiron,S_SPORT,coupe
+470,97,Emira,emira,S_SPORT,coupe
+471,97,Eletre,eletre,J_CROSS,crossover
+472,98,TLX,tlx,D,sedan
+473,98,MDX,mdx,J_CROSS,crossover
+474,98,RDX,rdx,J_CROSS,crossover
+475,99,Giulia,giulia,D,sedan
+476,99,Stelvio,stelvio,J_CROSS,crossover
+477,99,Tonale,tonale,J_CROSS,crossover
+478,100,DS3,ds3,B,hatchback
+479,100,DS4,ds4,C,hatchback
+480,100,DS7,ds7,J_CROSS,crossover

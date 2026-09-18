@@ -1,0 +1,57 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+.tox/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Data: raw and processed are NOT committed ---
+ml/data/raw/**
+!ml/data/raw/.gitkeep
+
+ml/data/processed/**
+!ml/data/processed/.gitkeep
+
+ml/artifacts/**
+!ml/artifacts/.gitkeep
+
+# Allow seed data
+!ml/data/seed/
+
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Build artefacts (frontend / backend, future stages) ---
+node_modules/
+dist/
+build/
+.next/
+.cache/
+
+# --- Misc ---
+*.log
+*.tmp
+*.bak

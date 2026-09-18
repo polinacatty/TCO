@@ -1,0 +1,16 @@
+kbm_class,kbm_value,class_after_no_claim,class_after_1_claim,class_after_2_claims,class_after_3_claims,class_after_more_than_3_claims
+M,3.92,0,M,M,M,M
+0,2.94,1,M,M,M,M
+1,2.25,2,M,M,M,M
+2,1.76,3,1,M,M,M
+3,1.17,4,1,M,M,M
+4,1.00,5,2,1,M,M
+5,0.91,6,3,1,M,M
+6,0.83,7,4,2,M,M
+7,0.78,8,4,2,M,M
+8,0.74,9,5,2,M,M
+9,0.68,10,5,2,1,M
+10,0.63,11,6,3,1,M
+11,0.57,12,6,3,1,M
+12,0.52,13,6,3,1,M
+13,0.46,13,7,3,1,M

@@ -1,0 +1,90 @@
+generation_id,year,msrp_base_rub,trim_high_rub,source_url,source_note
+1,2020,540000,720000,https://www.lada.ru/cars/granta/,"Median 3 sources: lada.ru/2020-Q1, archive.org/auto.ru/2020-04, drom.ru/catalog/lada/granta"
+1,2024,850000,1120000,https://www.lada.ru/cars/granta/,lada.ru/2024-Q1 + drom.ru/catalog/lada/granta + autostat.ru/news/2024
+2,2020,690000,950000,https://www.lada.ru/cars/vesta/,lada.ru/2020-Q1 + archive auto.ru + drom catalog
+2,2024,1270000,1730000,https://www.lada.ru/cars/vesta/,lada.ru/2024-Q4 (NG generation) + drom + autostat
+3,2024,850000,1050000,https://www.lada.ru/cars/niva-legend/,lada.ru/2024-Q1 + drom catalog
+4,2024,1100000,1400000,https://www.lada.ru/cars/niva-travel/,lada.ru/2024-Q1 (rebadged Chevrolet Niva) + drom
+5,2020,760000,980000,https://www.lada.ru/cars/largus/,lada.ru/2020-Q1 + archive auto.ru + drom
+5,2024,1350000,1650000,https://www.lada.ru/cars/largus/,lada.ru/2024 + drom catalog (post-2022 prices)
+6,2025,1250000,1750000,https://www.lada.ru/cars/iskra/,lada.ru/2025 announcement + drom early reviews
+11,2024,1550000,2100000,https://uaz.ru/cars/patriot/,uaz.ru/2024-Q1 + drom catalog + autostat
+12,2024,1300000,1550000,https://uaz.ru/cars/hunter/,uaz.ru/2024-Q1 + drom catalog
+19,2024,2350000,3100000,https://moskvich-auto.ru/3/,moskvich-auto.ru/2024-Q1 (rebadged JAC JS4) + drom + autostat
+29,2020,720000,1080000,https://web.archive.org/web/2020*/renault.ru/logan,renault.ru/2020-Q1 + archive auto.ru + drom
+30,2020,690000,980000,https://web.archive.org/web/2020*/renault.ru/sandero,renault.ru/2020-Q1 + archive + drom
+32,2021,1300000,1800000,https://web.archive.org/web/2021*/renault.ru/duster,renault.ru/2021-Q4 (new 2nd gen launch) + drom catalog
+50,2020,880000,1300000,https://web.archive.org/web/2020*/skoda-auto.ru/rapid,skoda-auto.ru/2020-Q1 + archive auto.ru + drom
+50,2022,1500000,2000000,https://web.archive.org/web/2022*/skoda-auto.ru/rapid,skoda-auto.ru/2022-Q1 + drom 2022
+51,2020,1400000,2100000,https://web.archive.org/web/2020*/skoda-auto.ru/octavia,skoda-auto.ru/2020-Q1 + archive + drom
+53,2022,2200000,3100000,https://web.archive.org/web/2022*/skoda-auto.ru/karoq,skoda-auto.ru/2022-Q1 + drom catalog
+58,2020,800000,1300000,https://web.archive.org/web/2020*/volkswagen.ru/polo,"volkswagen.ru/2020-Q1 + archive auto.ru + drom (Polo sedan, RU-build)"
+58,2022,1550000,2100000,https://web.archive.org/web/2022*/volkswagen.ru/polo,volkswagen.ru/2022-Q1 + drom 2022 (last year before exit)
+62,2024,4700000,6500000,https://www.drom.ru/catalog/volkswagen/tiguan/,"Drom catalog 2024 (3rd gen MQB-evo, parallel imports) + autostat"
+114,2020,1950000,2950000,https://web.archive.org/web/2020*/toyota.ru/camry,toyota.ru/2020-Q1 + archive.org + drom catalog (XV70 generation)
+114,2024,3500000,5200000,https://www.drom.ru/catalog/toyota/camry/,"Drom catalog 2024 (post-exit, parallel imports) + autostat"
+115,2022,2500000,3600000,https://web.archive.org/web/2022*/toyota.ru/rav4,toyota.ru/2022-Q1 (pre-exit) + drom catalog
+117,2024,7500000,11000000,https://www.drom.ru/catalog/toyota/land_cruiser_prado/,"Drom catalog 2024 (250-series new gen, parallel imports) + autostat 2024"
+118,2022,4300000,5800000,https://web.archive.org/web/2022*/toyota.ru/highlander,toyota.ru/2022-Q1 + drom + autostat
+128,2022,2700000,3800000,https://web.archive.org/web/2022*/honda.co.ru/crv,honda.co.ru/2022 + drom catalog
+134,2022,2400000,3300000,https://web.archive.org/web/2022*/mazda.ru/6,mazda.ru/2022-Q1 + drom + autostat
+135,2022,2600000,3700000,https://web.archive.org/web/2022*/mazda.ru/cx5,mazda.ru/2022-Q1 + drom catalog
+146,2021,1900000,2500000,https://web.archive.org/web/2021*/nissan.ru/qashqai,nissan.ru/2021-Q4 (new J12 gen launch) + drom catalog
+147,2022,2400000,3400000,https://web.archive.org/web/2022*/nissan.ru/xtrail,nissan.ru/2022-Q1 + drom catalog
+174,2020,850000,1200000,https://www.hyundai.ru/models/solaris.html,hyundai.ru/2020-Q1 (pre-2022 prices) + archive auto.ru + drom
+174,2022,1400000,1800000,https://web.archive.org/web/2022*/hyundai.ru/solaris,Pre-exit hyundai.ru/2022-02 + archive.org snapshots + drom 2022 listings
+177,2022,2250000,3200000,https://web.archive.org/web/2022*/hyundai.ru/sonata,hyundai.ru/2022-Q1 + drom + autostat
+178,2020,950000,1350000,https://www.hyundai.ru/models/creta.html,hyundai.ru/2020-Q1 + archive auto.ru + drom catalog
+178,2022,1700000,2300000,https://web.archive.org/web/2022*/hyundai.ru/creta,hyundai.ru/2022-02 (pre-exit) + drom 2022 archives
+179,2022,2500000,3500000,https://web.archive.org/web/2022*/hyundai.ru/tucson,Pre-exit hyundai.ru/2022-Q1 + drom catalog 2022
+181,2022,4000000,5500000,https://web.archive.org/web/2022*/hyundai.ru/palisade,hyundai.ru/2022-Q1 + drom premium SUV + autostat
+186,2020,850000,1250000,https://www.kia.ru/cars/rio/,kia.ru/2020-Q1 + archive auto.ru + drom
+186,2022,1350000,1750000,https://web.archive.org/web/2022*/kia.ru/rio,kia.ru/2022-Q1 (pre-exit) + drom 2022
+189,2022,2700000,3800000,https://web.archive.org/web/2022*/kia.ru/sportage,kia.ru/2022-Q1 + drom catalog
+190,2022,3500000,4900000,https://web.archive.org/web/2022*/kia.ru/sorento,kia.ru/2022-Q1 + drom catalog
+191,2020,1150000,1650000,https://www.kia.ru/cars/soul/,kia.ru/2020-Q1 + archive auto.ru + drom
+198,2022,2400000,3300000,https://web.archive.org/web/2022*/kia.ru/k5,kia.ru/2022-Q1 + drom + autostat
+205,2022,1750000,2350000,https://www.geely-motors.com/ru/coolray/,geely-motors.com/2022 + drom catalog + autostat
+205,2024,2300000,2950000,https://www.geely-motors.com/ru/coolray/,geely-motors.com/2024-Q1 + drom + autostat 2024 sales rank
+206,2024,2950000,3950000,https://www.geely-motors.com/ru/atlas/,geely-motors.com/2024-Q1 (Atlas Pro / 2nd gen) + drom + autostat
+208,2024,3750000,4650000,https://www.geely-motors.com/ru/tugella/,geely-motors.com/2024-Q1 + drom
+209,2024,3650000,4450000,https://www.geely-motors.com/ru/monjaro/,geely-motors.com/2024-Q1 + drom + autostat (top crossover for Geely RU)
+215,2024,2350000,3050000,https://chery.ru/tiggo7pro/,chery.ru/2024-Q1 + drom + autostat
+216,2024,3200000,4000000,https://chery.ru/tiggo8pro/,chery.ru/2024-Q1 + drom + autostat
+220,2024,1850000,2550000,https://www.haval.ru/jolion/,haval.ru/2024-Q1 + drom + autostat
+221,2022,2100000,2950000,https://www.haval.ru/f7/,haval.ru/2022-Q1 + drom
+224,2024,4100000,5350000,https://www.haval.ru/h9/,haval.ru/2024-Q1 + drom (premium SUV from Haval)
+226,2024,2750000,3650000,https://www.haval.ru/dargo/,haval.ru/2024-Q1 + drom + autostat
+230,2024,1950000,2550000,https://changan-auto.ru/cs35plus/,changan-auto.ru/2024-Q1 + drom
+231,2024,2400000,3100000,https://changan-auto.ru/cs55plus/,changan-auto.ru/2024-Q1 + drom + autostat
+232,2024,2950000,3850000,https://changan-auto.ru/cs75plus/,changan-auto.ru/2024-Q1 + drom
+234,2024,3950000,4750000,https://changan-auto.ru/uni-k/,changan-auto.ru/2024-Q1 + drom premium Chinese
+266,2024,1650000,2150000,https://baic.ru/x35/,baic.ru/2024-Q1 + drom
+267,2024,2450000,3100000,https://baic.ru/x55/,baic.ru/2024-Q1 + drom
+270,2024,3150000,4050000,https://www.byd.com/ru/songplus/,byd.com/ru/2024-Q1 + drom (DM-i hybrid SUV)
+271,2024,5950000,7500000,https://www.byd.com/ru/han/,byd.com/ru/2024-Q1 + drom EV catalog (electric flagship)
+327,2022,4200000,6800000,https://web.archive.org/web/2022*/bmw.ru/3-series,bmw.ru/2022-Q1 + drom premium catalog (G20)
+329,2024,8500000,13000000,https://www.drom.ru/catalog/bmw/5-series/,"Drom catalog 2024 (G60 new gen, parallel imports) + autostat 2024"
+335,2024,7200000,10500000,https://www.drom.ru/catalog/bmw/x3/,"Drom catalog 2024 (G45 new gen, parallel imports) + autostat 2024"
+337,2022,7500000,12000000,https://web.archive.org/web/2022*/bmw.ru/x5,bmw.ru/2022-Q1 + drom premium SUV (G05)
+339,2022,10500000,16000000,https://web.archive.org/web/2022*/bmw.ru/x7,bmw.ru/2022-Q1 + drom
+347,2022,4500000,7000000,https://web.archive.org/web/2022*/mercedes-benz.ru/cclass,mercedes-benz.ru/2022-Q1 + drom catalog (W206)
+348,2024,9500000,14000000,https://www.drom.ru/catalog/mercedes-benz/e_class/,"Drom catalog 2024 (W214 new gen, parallel imports) + autostat 2024"
+349,2022,11500000,18000000,https://web.archive.org/web/2022*/mercedes-benz.ru/sclass,mercedes-benz.ru/2022-Q1 + drom
+354,2022,5500000,8500000,https://web.archive.org/web/2022*/mercedes-benz.ru/glc,mercedes-benz.ru/2022-Q1 + drom
+355,2022,7500000,11500000,https://web.archive.org/web/2022*/mercedes-benz.ru/gle,mercedes-benz.ru/2022-Q1 + drom premium SUV
+363,2022,4000000,5700000,https://web.archive.org/web/2022*/audi.ru/a4,audi.ru/2022-Q1 + drom premium catalog
+365,2022,5200000,7500000,https://web.archive.org/web/2022*/audi.ru/a6,audi.ru/2022-Q1 + drom
+369,2022,4500000,6500000,https://web.archive.org/web/2022*/audi.ru/q5,audi.ru/2022-Q1 + drom
+370,2022,6500000,9500000,https://web.archive.org/web/2022*/audi.ru/q7,audi.ru/2022-Q1 + drom premium SUV
+377,2022,8500000,14500000,https://web.archive.org/web/2022*/porsche.com/russia/cayenne,porsche.com/russia/2022-Q1 + drom premium SUV
+378,2022,6500000,10000000,https://web.archive.org/web/2022*/porsche.com/russia/macan,porsche.com/russia/2022-Q1 + drom
+381,2022,4300000,5900000,https://web.archive.org/web/2022*/lexus.ru/es,lexus.ru/2022-Q1 + drom + autostat premium
+384,2024,5500000,7800000,https://www.drom.ru/catalog/lexus/nx/,Drom catalog 2024 + autostat
+385,2024,6500000,9500000,https://www.drom.ru/catalog/lexus/rx/,Drom catalog 2024 (parallel imports) + autostat premium
+391,2022,7500000,11500000,https://web.archive.org/web/2022*/landrover.ru/discovery,landrover.ru/2022-Q1 + drom premium SUV
+394,2022,9500000,14500000,https://web.archive.org/web/2022*/landrover.ru/range-rover-sport,landrover.ru/2022-Q1 + drom
+406,2022,4500000,6700000,https://web.archive.org/web/2022*/volvocars.ru/xc60,volvocars.ru/2022-Q1 + drom
+407,2022,6500000,9500000,https://web.archive.org/web/2022*/volvocars.ru/xc90,volvocars.ru/2022-Q1 + drom premium 7-seat SUV
+421,2022,3900000,5200000,https://www.genesis.com/ru/,genesis.com/2022-Q1 + drom premium
+424,2022,4500000,6500000,https://www.genesis.com/ru/,genesis.com/2022-Q1 + drom + autostat

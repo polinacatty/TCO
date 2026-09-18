@@ -1,0 +1,151 @@
+segment,brand_tier,age_year_bucket,annual_depreciation_pct,source_note,valid_from
+A_B,russian,1,17.00,AAA YDC + Автостат RU baseline; A/B economy correction,2026-04-28
+A_B,russian,2,11.00,AAA YDC + Автостат RU baseline; A/B economy correction,2026-04-28
+A_B,russian,3,8.00,AAA YDC + Автостат RU baseline; A/B economy correction,2026-04-28
+A_B,russian,4,7.00,AAA YDC + Автостат RU baseline; A/B economy correction,2026-04-28
+A_B,russian,5,6.00,AAA YDC + Автостат RU baseline; A/B economy correction,2026-04-28
+A_B,mass,1,19.00,KBB 5YCTO + Auto.ru EU mass; A/B economy correction,2026-04-28
+A_B,mass,2,13.00,KBB 5YCTO + Auto.ru EU mass; A/B economy correction,2026-04-28
+A_B,mass,3,10.00,KBB 5YCTO + Auto.ru EU mass; A/B economy correction,2026-04-28
+A_B,mass,4,9.00,KBB 5YCTO + Auto.ru EU mass; A/B economy correction,2026-04-28
+A_B,mass,5,8.00,KBB 5YCTO + Auto.ru EU mass; A/B economy correction,2026-04-28
+A_B,japanese_korean_mass,1,18.00,KBB 5YCTO + Auto.ru JP/KR mass; A/B economy correction,2026-04-28
+A_B,japanese_korean_mass,2,12.00,KBB 5YCTO + Auto.ru JP/KR mass; A/B economy correction,2026-04-28
+A_B,japanese_korean_mass,3,9.00,KBB 5YCTO + Auto.ru JP/KR mass; A/B economy correction,2026-04-28
+A_B,japanese_korean_mass,4,8.00,KBB 5YCTO + Auto.ru JP/KR mass; A/B economy correction,2026-04-28
+A_B,japanese_korean_mass,5,7.00,KBB 5YCTO + Auto.ru JP/KR mass; A/B economy correction,2026-04-28
+A_B,chinese,1,23.00,Drom CN-EV review 2024-2025; A/B economy correction,2026-04-28
+A_B,chinese,2,16.00,Drom CN-EV review 2024-2025; A/B economy correction,2026-04-28
+A_B,chinese,3,12.00,Drom CN-EV review 2024-2025; A/B economy correction,2026-04-28
+A_B,chinese,4,11.00,Drom CN-EV review 2024-2025; A/B economy correction,2026-04-28
+A_B,chinese,5,10.00,Drom CN-EV review 2024-2025; A/B economy correction,2026-04-28
+A_B,premium,1,26.00,AAA YDC + KBB premium; A/B economy correction,2026-04-28
+A_B,premium,2,18.00,AAA YDC + KBB premium; A/B economy correction,2026-04-28
+A_B,premium,3,12.00,AAA YDC + KBB premium; A/B economy correction,2026-04-28
+A_B,premium,4,10.00,AAA YDC + KBB premium; A/B economy correction,2026-04-28
+A_B,premium,5,9.00,AAA YDC + KBB premium; A/B economy correction,2026-04-28
+C_D,russian,1,16.00,AAA YDC + Автостат RU baseline; C/D baseline (no correction),2026-04-28
+C_D,russian,2,10.00,AAA YDC + Автостат RU baseline; C/D baseline (no correction),2026-04-28
+C_D,russian,3,8.00,AAA YDC + Автостат RU baseline; C/D baseline (no correction),2026-04-28
+C_D,russian,4,7.00,AAA YDC + Автостат RU baseline; C/D baseline (no correction),2026-04-28
+C_D,russian,5,6.00,AAA YDC + Автостат RU baseline; C/D baseline (no correction),2026-04-28
+C_D,mass,1,18.00,KBB 5YCTO + Auto.ru EU mass; C/D baseline (no correction),2026-04-28
+C_D,mass,2,12.00,KBB 5YCTO + Auto.ru EU mass; C/D baseline (no correction),2026-04-28
+C_D,mass,3,10.00,KBB 5YCTO + Auto.ru EU mass; C/D baseline (no correction),2026-04-28
+C_D,mass,4,9.00,KBB 5YCTO + Auto.ru EU mass; C/D baseline (no correction),2026-04-28
+C_D,mass,5,8.00,KBB 5YCTO + Auto.ru EU mass; C/D baseline (no correction),2026-04-28
+C_D,japanese_korean_mass,1,17.00,KBB 5YCTO + Auto.ru JP/KR mass; C/D baseline (no correction),2026-04-28
+C_D,japanese_korean_mass,2,11.00,KBB 5YCTO + Auto.ru JP/KR mass; C/D baseline (no correction),2026-04-28
+C_D,japanese_korean_mass,3,9.00,KBB 5YCTO + Auto.ru JP/KR mass; C/D baseline (no correction),2026-04-28
+C_D,japanese_korean_mass,4,8.00,KBB 5YCTO + Auto.ru JP/KR mass; C/D baseline (no correction),2026-04-28
+C_D,japanese_korean_mass,5,7.00,KBB 5YCTO + Auto.ru JP/KR mass; C/D baseline (no correction),2026-04-28
+C_D,chinese,1,22.00,Drom CN-EV review 2024-2025; C/D baseline (no correction),2026-04-28
+C_D,chinese,2,15.00,Drom CN-EV review 2024-2025; C/D baseline (no correction),2026-04-28
+C_D,chinese,3,12.00,Drom CN-EV review 2024-2025; C/D baseline (no correction),2026-04-28
+C_D,chinese,4,11.00,Drom CN-EV review 2024-2025; C/D baseline (no correction),2026-04-28
+C_D,chinese,5,10.00,Drom CN-EV review 2024-2025; C/D baseline (no correction),2026-04-28
+C_D,premium,1,25.00,AAA YDC + KBB premium; C/D baseline (no correction),2026-04-28
+C_D,premium,2,17.00,AAA YDC + KBB premium; C/D baseline (no correction),2026-04-28
+C_D,premium,3,12.00,AAA YDC + KBB premium; C/D baseline (no correction),2026-04-28
+C_D,premium,4,10.00,AAA YDC + KBB premium; C/D baseline (no correction),2026-04-28
+C_D,premium,5,9.00,AAA YDC + KBB premium; C/D baseline (no correction),2026-04-28
+E_F,russian,1,18.00,AAA YDC + Автостат RU baseline; E/F executive/luxury correction,2026-04-28
+E_F,russian,2,11.00,AAA YDC + Автостат RU baseline; E/F executive/luxury correction,2026-04-28
+E_F,russian,3,7.00,AAA YDC + Автостат RU baseline; E/F executive/luxury correction,2026-04-28
+E_F,russian,4,6.00,AAA YDC + Автостат RU baseline; E/F executive/luxury correction,2026-04-28
+E_F,russian,5,6.00,AAA YDC + Автостат RU baseline; E/F executive/luxury correction,2026-04-28
+E_F,mass,1,20.00,KBB 5YCTO + Auto.ru EU mass; E/F executive/luxury correction,2026-04-28
+E_F,mass,2,13.00,KBB 5YCTO + Auto.ru EU mass; E/F executive/luxury correction,2026-04-28
+E_F,mass,3,9.00,KBB 5YCTO + Auto.ru EU mass; E/F executive/luxury correction,2026-04-28
+E_F,mass,4,8.00,KBB 5YCTO + Auto.ru EU mass; E/F executive/luxury correction,2026-04-28
+E_F,mass,5,8.00,KBB 5YCTO + Auto.ru EU mass; E/F executive/luxury correction,2026-04-28
+E_F,japanese_korean_mass,1,19.00,KBB 5YCTO + Auto.ru JP/KR mass; E/F executive/luxury correction,2026-04-28
+E_F,japanese_korean_mass,2,12.00,KBB 5YCTO + Auto.ru JP/KR mass; E/F executive/luxury correction,2026-04-28
+E_F,japanese_korean_mass,3,8.00,KBB 5YCTO + Auto.ru JP/KR mass; E/F executive/luxury correction,2026-04-28
+E_F,japanese_korean_mass,4,7.00,KBB 5YCTO + Auto.ru JP/KR mass; E/F executive/luxury correction,2026-04-28
+E_F,japanese_korean_mass,5,7.00,KBB 5YCTO + Auto.ru JP/KR mass; E/F executive/luxury correction,2026-04-28
+E_F,chinese,1,24.00,Drom CN-EV review 2024-2025; E/F executive/luxury correction,2026-04-28
+E_F,chinese,2,16.00,Drom CN-EV review 2024-2025; E/F executive/luxury correction,2026-04-28
+E_F,chinese,3,11.00,Drom CN-EV review 2024-2025; E/F executive/luxury correction,2026-04-28
+E_F,chinese,4,10.00,Drom CN-EV review 2024-2025; E/F executive/luxury correction,2026-04-28
+E_F,chinese,5,10.00,Drom CN-EV review 2024-2025; E/F executive/luxury correction,2026-04-28
+E_F,premium,1,27.00,AAA YDC + KBB premium; E/F executive/luxury correction,2026-04-28
+E_F,premium,2,18.00,AAA YDC + KBB premium; E/F executive/luxury correction,2026-04-28
+E_F,premium,3,11.00,AAA YDC + KBB premium; E/F executive/luxury correction,2026-04-28
+E_F,premium,4,9.00,AAA YDC + KBB premium; E/F executive/luxury correction,2026-04-28
+E_F,premium,5,9.00,AAA YDC + KBB premium; E/F executive/luxury correction,2026-04-28
+J_SUV,russian,1,14.00,AAA YDC + Автостат RU baseline; J_SUV body-on-frame retention,2026-04-28
+J_SUV,russian,2,9.00,AAA YDC + Автостат RU baseline; J_SUV body-on-frame retention,2026-04-28
+J_SUV,russian,3,7.00,AAA YDC + Автостат RU baseline; J_SUV body-on-frame retention,2026-04-28
+J_SUV,russian,4,6.00,AAA YDC + Автостат RU baseline; J_SUV body-on-frame retention,2026-04-28
+J_SUV,russian,5,5.00,AAA YDC + Автостат RU baseline; J_SUV body-on-frame retention,2026-04-28
+J_SUV,mass,1,16.00,KBB 5YCTO + Auto.ru EU mass; J_SUV body-on-frame retention,2026-04-28
+J_SUV,mass,2,11.00,KBB 5YCTO + Auto.ru EU mass; J_SUV body-on-frame retention,2026-04-28
+J_SUV,mass,3,9.00,KBB 5YCTO + Auto.ru EU mass; J_SUV body-on-frame retention,2026-04-28
+J_SUV,mass,4,8.00,KBB 5YCTO + Auto.ru EU mass; J_SUV body-on-frame retention,2026-04-28
+J_SUV,mass,5,7.00,KBB 5YCTO + Auto.ru EU mass; J_SUV body-on-frame retention,2026-04-28
+J_SUV,japanese_korean_mass,1,15.00,KBB 5YCTO + Auto.ru JP/KR mass; J_SUV body-on-frame retention,2026-04-28
+J_SUV,japanese_korean_mass,2,10.00,KBB 5YCTO + Auto.ru JP/KR mass; J_SUV body-on-frame retention,2026-04-28
+J_SUV,japanese_korean_mass,3,8.00,KBB 5YCTO + Auto.ru JP/KR mass; J_SUV body-on-frame retention,2026-04-28
+J_SUV,japanese_korean_mass,4,7.00,KBB 5YCTO + Auto.ru JP/KR mass; J_SUV body-on-frame retention,2026-04-28
+J_SUV,japanese_korean_mass,5,6.00,KBB 5YCTO + Auto.ru JP/KR mass; J_SUV body-on-frame retention,2026-04-28
+J_SUV,chinese,1,20.00,Drom CN-EV review 2024-2025; J_SUV body-on-frame retention,2026-04-28
+J_SUV,chinese,2,14.00,Drom CN-EV review 2024-2025; J_SUV body-on-frame retention,2026-04-28
+J_SUV,chinese,3,11.00,Drom CN-EV review 2024-2025; J_SUV body-on-frame retention,2026-04-28
+J_SUV,chinese,4,10.00,Drom CN-EV review 2024-2025; J_SUV body-on-frame retention,2026-04-28
+J_SUV,chinese,5,9.00,Drom CN-EV review 2024-2025; J_SUV body-on-frame retention,2026-04-28
+J_SUV,premium,1,23.00,AAA YDC + KBB premium; J_SUV body-on-frame retention,2026-04-28
+J_SUV,premium,2,16.00,AAA YDC + KBB premium; J_SUV body-on-frame retention,2026-04-28
+J_SUV,premium,3,11.00,AAA YDC + KBB premium; J_SUV body-on-frame retention,2026-04-28
+J_SUV,premium,4,9.00,AAA YDC + KBB premium; J_SUV body-on-frame retention,2026-04-28
+J_SUV,premium,5,8.00,AAA YDC + KBB premium; J_SUV body-on-frame retention,2026-04-28
+J_CROSS,russian,1,16.00,AAA YDC + Автостат RU baseline; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,russian,2,10.00,AAA YDC + Автостат RU baseline; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,russian,3,8.00,AAA YDC + Автостат RU baseline; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,russian,4,7.00,AAA YDC + Автостат RU baseline; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,russian,5,6.00,AAA YDC + Автостат RU baseline; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,mass,1,18.00,KBB 5YCTO + Auto.ru EU mass; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,mass,2,12.00,KBB 5YCTO + Auto.ru EU mass; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,mass,3,10.00,KBB 5YCTO + Auto.ru EU mass; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,mass,4,9.00,KBB 5YCTO + Auto.ru EU mass; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,mass,5,8.00,KBB 5YCTO + Auto.ru EU mass; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,japanese_korean_mass,1,17.00,KBB 5YCTO + Auto.ru JP/KR mass; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,japanese_korean_mass,2,11.00,KBB 5YCTO + Auto.ru JP/KR mass; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,japanese_korean_mass,3,9.00,KBB 5YCTO + Auto.ru JP/KR mass; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,japanese_korean_mass,4,8.00,KBB 5YCTO + Auto.ru JP/KR mass; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,japanese_korean_mass,5,7.00,KBB 5YCTO + Auto.ru JP/KR mass; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,chinese,1,22.00,Drom CN-EV review 2024-2025; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,chinese,2,15.00,Drom CN-EV review 2024-2025; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,chinese,3,12.00,Drom CN-EV review 2024-2025; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,chinese,4,11.00,Drom CN-EV review 2024-2025; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,chinese,5,10.00,Drom CN-EV review 2024-2025; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,premium,1,25.00,AAA YDC + KBB premium; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,premium,2,17.00,AAA YDC + KBB premium; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,premium,3,12.00,AAA YDC + KBB premium; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,premium,4,10.00,AAA YDC + KBB premium; J_CROSS unibody (= C_D),2026-04-28
+J_CROSS,premium,5,9.00,AAA YDC + KBB premium; J_CROSS unibody (= C_D),2026-04-28
+LCV,russian,1,19.00,AAA YDC + Автостат RU baseline; LCV commercial wear correction,2026-04-28
+LCV,russian,2,12.00,AAA YDC + Автостат RU baseline; LCV commercial wear correction,2026-04-28
+LCV,russian,3,9.00,AAA YDC + Автостат RU baseline; LCV commercial wear correction,2026-04-28
+LCV,russian,4,8.00,AAA YDC + Автостат RU baseline; LCV commercial wear correction,2026-04-28
+LCV,russian,5,6.00,AAA YDC + Автостат RU baseline; LCV commercial wear correction,2026-04-28
+LCV,mass,1,21.00,KBB 5YCTO + Auto.ru EU mass; LCV commercial wear correction,2026-04-28
+LCV,mass,2,14.00,KBB 5YCTO + Auto.ru EU mass; LCV commercial wear correction,2026-04-28
+LCV,mass,3,11.00,KBB 5YCTO + Auto.ru EU mass; LCV commercial wear correction,2026-04-28
+LCV,mass,4,10.00,KBB 5YCTO + Auto.ru EU mass; LCV commercial wear correction,2026-04-28
+LCV,mass,5,8.00,KBB 5YCTO + Auto.ru EU mass; LCV commercial wear correction,2026-04-28
+LCV,japanese_korean_mass,1,20.00,KBB 5YCTO + Auto.ru JP/KR mass; LCV commercial wear correction,2026-04-28
+LCV,japanese_korean_mass,2,13.00,KBB 5YCTO + Auto.ru JP/KR mass; LCV commercial wear correction,2026-04-28
+LCV,japanese_korean_mass,3,10.00,KBB 5YCTO + Auto.ru JP/KR mass; LCV commercial wear correction,2026-04-28
+LCV,japanese_korean_mass,4,9.00,KBB 5YCTO + Auto.ru JP/KR mass; LCV commercial wear correction,2026-04-28
+LCV,japanese_korean_mass,5,7.00,KBB 5YCTO + Auto.ru JP/KR mass; LCV commercial wear correction,2026-04-28
+LCV,chinese,1,25.00,Drom CN-EV review 2024-2025; LCV commercial wear correction,2026-04-28
+LCV,chinese,2,17.00,Drom CN-EV review 2024-2025; LCV commercial wear correction,2026-04-28
+LCV,chinese,3,13.00,Drom CN-EV review 2024-2025; LCV commercial wear correction,2026-04-28
+LCV,chinese,4,12.00,Drom CN-EV review 2024-2025; LCV commercial wear correction,2026-04-28
+LCV,chinese,5,10.00,Drom CN-EV review 2024-2025; LCV commercial wear correction,2026-04-28
+LCV,premium,1,28.00,AAA YDC + KBB premium; LCV commercial wear correction,2026-04-28
+LCV,premium,2,19.00,AAA YDC + KBB premium; LCV commercial wear correction,2026-04-28
+LCV,premium,3,13.00,AAA YDC + KBB premium; LCV commercial wear correction,2026-04-28
+LCV,premium,4,11.00,AAA YDC + KBB premium; LCV commercial wear correction,2026-04-28
+LCV,premium,5,9.00,AAA YDC + KBB premium; LCV commercial wear correction,2026-04-28

@@ -1,0 +1,5 @@
+restricted,owner_type,ko_value
+true,physical,1.00
+true,legal,1.00
+false,physical,3.16
+false,legal,1.97

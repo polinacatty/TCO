@@ -1,0 +1,101 @@
+id,name,name_normalized,country,brand_tier
+1,Lada,lada,Russia,russian
+2,UAZ,uaz,Russia,russian
+3,GAZ,gaz,Russia,russian
+4,Moskvich,moskvich,Russia,russian
+5,Aurus,aurus,Russia,russian
+6,Sollers,sollers,Russia,russian
+7,Volga,volga,Russia,russian
+8,TagAZ,tagaz,Russia,russian
+9,IzhAvto,izhavto,Russia,russian
+10,Kamaz,kamaz,Russia,russian
+11,Renault,renault,France,mass
+12,Peugeot,peugeot,France,mass
+13,Citroen,citroen,France,mass
+14,Skoda,skoda,Czech Republic,mass
+15,Volkswagen,volkswagen,Germany,mass
+16,Opel,opel,Germany,mass
+17,Seat,seat,Spain,mass
+18,Dacia,dacia,Romania,mass
+19,Fiat,fiat,Italy,mass
+20,Ford,ford,USA,mass
+21,Chevrolet,chevrolet,USA,mass
+22,Dodge,dodge,USA,mass
+23,Chrysler,chrysler,USA,mass
+24,Jeep,jeep,USA,mass
+25,Mini,mini,United Kingdom,mass
+26,Smart,smart,Germany,mass
+27,Toyota,toyota,Japan,japanese_korean_mass
+28,Honda,honda,Japan,japanese_korean_mass
+29,Mazda,mazda,Japan,japanese_korean_mass
+30,Subaru,subaru,Japan,japanese_korean_mass
+31,Nissan,nissan,Japan,japanese_korean_mass
+32,Mitsubishi,mitsubishi,Japan,japanese_korean_mass
+33,Suzuki,suzuki,Japan,japanese_korean_mass
+34,Daihatsu,daihatsu,Japan,japanese_korean_mass
+35,Isuzu,isuzu,Japan,japanese_korean_mass
+36,Datsun,datsun,Japan,japanese_korean_mass
+37,Hyundai,hyundai,South Korea,japanese_korean_mass
+38,Kia,kia,South Korea,japanese_korean_mass
+39,SsangYong,ssangyong,South Korea,japanese_korean_mass
+40,Daewoo,daewoo,South Korea,japanese_korean_mass
+41,Geely,geely,China,chinese
+42,Chery,chery,China,chinese
+43,Haval,haval,China,chinese
+44,Great Wall,greatwall,China,chinese
+45,Changan,changan,China,chinese
+46,Exeed,exeed,China,chinese
+47,Omoda,omoda,China,chinese
+48,Jaecoo,jaecoo,China,chinese
+49,Tank,tank,China,chinese
+50,Hongqi,hongqi,China,chinese
+51,GAC,gac,China,chinese
+52,JAC,jac,China,chinese
+53,BAIC,baic,China,chinese
+54,BYD,byd,China,chinese
+55,Lifan,lifan,China,chinese
+56,Brilliance,brilliance,China,chinese
+57,Dongfeng,dongfeng,China,chinese
+58,FAW,faw,China,chinese
+59,Foton,foton,China,chinese
+60,Zotye,zotye,China,chinese
+61,AITO,aito,China,chinese
+62,LIXIANG,lixiang,China,chinese
+63,Xiaomi,xiaomi,China,chinese
+64,Zeekr,zeekr,China,chinese
+65,Avatr,avatr,China,chinese
+66,Livan,livan,China,chinese
+67,M-HERO,mhero,China,chinese
+68,SERES,seres,China,chinese
+69,Skywell,skywell,China,chinese
+70,KAIYI,kaiyi,China,chinese
+71,Voyah,voyah,China,chinese
+72,HiPhi,hiphi,China,chinese
+73,NIO,nio,China,chinese
+74,Wuling,wuling,China,chinese
+75,MG,mg,United Kingdom,chinese
+76,BMW,bmw,Germany,premium
+77,Mercedes-Benz,mercedesbenz,Germany,premium
+78,Audi,audi,Germany,premium
+79,Porsche,porsche,Germany,premium
+80,Lexus,lexus,Japan,premium
+81,Land Rover,landrover,United Kingdom,premium
+82,Cadillac,cadillac,USA,premium
+83,Volvo,volvo,Sweden,premium
+84,Infiniti,infiniti,Japan,premium
+85,Jaguar,jaguar,United Kingdom,premium
+86,Genesis,genesis,South Korea,premium
+87,Tesla,tesla,USA,premium
+88,Lincoln,lincoln,USA,premium
+89,Bentley,bentley,United Kingdom,premium
+90,Rolls-Royce,rollsroyce,United Kingdom,premium
+91,Aston Martin,astonmartin,United Kingdom,premium
+92,Ferrari,ferrari,Italy,premium
+93,Lamborghini,lamborghini,Italy,premium
+94,Maserati,maserati,Italy,premium
+95,McLaren,mclaren,United Kingdom,premium
+96,Bugatti,bugatti,France,premium
+97,Lotus,lotus,United Kingdom,premium
+98,Acura,acura,Japan,premium
+99,Alfa Romeo,alfaromeo,Italy,premium
+100,DS Automobiles,dsautomobiles,France,premium

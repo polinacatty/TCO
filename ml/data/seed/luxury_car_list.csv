@@ -1,0 +1,574 @@
+make,model,engine_type,engine_volume_l,price_tier_min_rub
+AITO,М9 Extended Range Ultra 6-ти местный,Гибрид,1.5,10000000
+Aston Martin,DB11 Coupe V8,Бензин,4.0,10000000
+Aston Martin,Rapide S Shadow Edition,Бензин,5.9,10000000
+Aston Martin,Rapide S V12,Бензин,5.9,10000000
+Aston Martin,Vantage,Бензин,4.0,10000000
+Aston Martin,Vantage V8,Бензин,4.0,10000000
+Audi,A6L 45TFSI quattro Premium Dynamic,Бензин,2.0,10000000
+Audi,A7L 45TFSI Black Samurai,Бензин,2.0,10000000
+Audi,A8 45 TFSI V6 183 kW tiptronic quattro,Бензин,3.0,10000000
+Audi,A8 55 TFSI V6 250 kW tiptronic quattro,Бензин,3.0,10000000
+Audi,A8 60 TFSI V8 338 kW tiptronic quattro,Бензин,4.0,10000000
+Audi,A8 L 45 TDI V6 183 kW tiptronic quattro,Дизель,3.0,10000000
+Audi,A8 L 55 TFSI V6 250 kW tiptronic quattro,Бензин,3.0,10000000
+Audi,A8 L 60 TFSI V8 338 kW tiptronic quattro,Бензин,4.0,10000000
+Audi,e-tron S 370 kW quattro,Электрический,,10000000
+Audi,e-tron Sportback S 370 kW quattro,Электрический,,10000000
+Audi,Q6 45 TFSI quattro Design,Бензин,2.0,10000000
+Audi,Q6 50TFSI quattro Black Samurai,Бензин,2.5,10000000
+Audi,Q7 3.0 TDI 286 hp quattro,Дизель,3.0,10000000
+Audi,Q8 3.0 TDI (286 hp) quattro tiptronic 2024 MY,Дизель,3.0,10000000
+Audi,Q8 3.0 TFSI (340 hp) quattro tiptronic 2024 MY,Бензин,3.0,10000000
+Audi,Q8 50 TDI (286 hp) quattro tiptronic,Дизель,3.0,10000000
+Audi,R8 quattro 5.2 TFSI V10 449 кВт S tronic,Бензин,5.2,10000000
+Audi,RS4 Avant TFSI V6 331 kW tiptronic quattro,Бензин,2.9,10000000
+Audi,RS5 Coupe TFSI V6 331 kW tiptronic quattro,Бензин,2.9,10000000
+Audi,RS5 Sportback TFSI V6 331 kW tiptronic quattro,Бензин,2.9,10000000
+Audi,RS6 Avant TFSI V8 441 kW tiptronic quattro,Бензин,4.0,10000000
+Audi,RS7 Sportback TFSI V8 441 kW tiptronic quattro,Бензин,4.0,10000000
+Audi,S6 Limousine TFSI V6 331 kW tiptronic quattro,Бензин,2.9,10000000
+Audi,S7 Sportback TFSI V6 331 kW tiptronic quattro,Бензин,2.9,10000000
+Audi,S8 TFSI quattro,Бензин,4.0,10000000
+Audi,S8 TFSI V8 420 kW tiptronic quattro,Бензин,4.0,10000000
+Bentley,Bentayga Diesel,Дизель,4.0,10000000
+Bentley,Bentayga Onyx,Бензин,6.0,10000000
+Bentley,Bentayga V8,Бензин,4.0,10000000
+Bentley,Bentayga V8 Diesel,Дизель,4.0,10000000
+Bentley,Continental GT,Бензин,6.0,10000000
+Bentley,Continental GT,Бензин,6.0,10000000
+Bentley,Continental GT Speed,Бензин,6.0,10000000
+Bentley,Continental GT Speed Convertible,Бензин,6.0,10000000
+Bentley,Continental GT V8,Бензин,4.0,10000000
+Bentley,Continental GT V8 Convertible,Бензин,4.0,10000000
+Bentley,Continental GT V8 S,Бензин,4.0,10000000
+Bentley,Continental GT V8 S Convertible,Бензин,4.0,10000000
+Bentley,Continental GTС V8,Бензин,4.0,10000000
+Bentley,Flying Spur V8,Бензин,4.0,10000000
+Bentley,Flying Spur V8 S,Бензин,4.0,10000000
+Bentley,Flying Spur W12,Бензин,6.0,10000000
+Bentley,Flying Spur W12 (new),Бензин,6.0,10000000
+Bentley,New Continental GT Speed,Бензин,6.0,10000000
+Bentley,New Continental GT V8S,Бензин,4.0,10000000
+Bentley,New Continental GT W12,Бензин,6.0,10000000
+Bentley,New Continental GTC Speed,Бензин,6.0,10000000
+Bentley,New Continental GTC V8,Бензин,4.0,10000000
+Bentley,New Continental GTC V8S,Бензин,4.0,10000000
+Bentley,New Continental GTC W12,Бензин,6.0,10000000
+BMW,530i xDrive,Бензин,2.0,10000000
+BMW,730Ld xDrive,Дизель,3.0,10000000
+BMW,740d xDrive,Дизель,3.0,10000000
+BMW,740Ld xDrive,Дизель,3.0,10000000
+BMW,740Li xDrive,Бензин,3.0,10000000
+BMW,750Li xDrive,Бензин,4.4,10000000
+BMW,840i xDrive,Бензин,3.0,10000000
+BMW,i8,Гибрид,1.5,10000000
+BMW,i8 Roadster,Гибрид,1.5,10000000
+BMW,M760Li xDrive,Бензин,6.6,10000000
+BMW,M8 Cabrio,Бензин,4.4,10000000
+BMW,M8 Coupe,Бензин,4.4,10000000
+BMW,M8 Gran Coupe,Бензин,4.4,10000000
+BMW,M850i xDrive,Бензин,4.4,10000000
+BMW,M850i xDrive Cabrio,Бензин,4.4,10000000
+BMW,M850i xDrive Coupe,Бензин,4.4,10000000
+BMW,X3 xDrive20d G45,Дизель,2.0,10000000
+BMW,X3 xDrive20i G45,Бензин,2.0,10000000
+BMW,X4 xDrive20d G02,Дизель,2.0,10000000
+BMW,X5 M,Бензин,4.4,10000000
+BMW,X5 M Competition,Бензин,4.4,10000000
+BMW,X6 M,Бензин,4.4,10000000
+BMW,X6 M50d,Дизель,3.0,10000000
+BMW,X6 M50i,Бензин,4.4,10000000
+BMW,X7 M50d,Дизель,3.0,10000000
+BMW,X7 M50i,Бензин,4.4,10000000
+BMW,М5,Бензин,4.4,10000000
+BMW,М5 Competition,Бензин,4.4,10000000
+BMW,М6 М Competition,Бензин,4.4,10000000
+BMW,М850i xDrive Gran Coupe,Бензин,4.4,10000000
+Cadillac,Escalade,Бензин,6.2,10000000
+Cadillac,Escalade ESV,Бензин,6.2,10000000
+Chevrolet,Tahoe RST,Бензин,5.3,10000000
+Dodge,"Challenger SRT Hellcat III Рестайлинг 6.2 л, 717 л.с.",Бензин,6.2,10000000
+Ford,"Mustang VII 5.0 л, 500 л.с",Бензин,5.0,10000000
+Genesis,G90 Elite,Бензин,3.3,10000000
+Genesis,G90 Elite,Бензин,3.8,10000000
+Genesis,G90 Limousine,Бензин,5.0,10000000
+Genesis,G90 Royal,Бензин,3.3,10000000
+Genesis,G90 Royal,Бензин,5.0,10000000
+Genesis,GV80 2.5 T-GDI 8AT 4WD,Бензин,2.5,10000000
+Genesis,GV80 Coupe 2.5 T-GDI 8AT 4WD,Бензин,2.5,10000000
+Genesis,GV80 Executive 2.5 T-GDI 8AT 4WD,Бензин,2.5,10000000
+HiPhi,HiPhi Z 4WD 4-местный,Электрический,,10000000
+Hongqi,E-HS9 Executive EU LR,Электрический,,10000000
+Hongqi,H9 Executive,Бензин,3.0,10000000
+Hyundai,Staria Lounge Inspiration 2.2CRDi 8AT HTRACK,Дизель,2.2,10000000
+JAGUAR,F-TYPE R Convertible 5.0 V8 S/C 550 PS AWD,Бензин,5.0,10000000
+JAGUAR,F-Type R Convertible 5.0 V8 S/C 575 PS AWD,Бензин,5.0,10000000
+JAGUAR,F-Type R Coupe 5.0 V8 S/C 575 PS AWD,Бензин,5.0,10000000
+JAGUAR,F-TYPE SVR 5.0 V8 S/C Coupe 575PS AWD AUTO (ST7),Бензин,5.0,10000000
+JAGUAR,F-TYPE SVR Convertible 5.0 V8 S/C 575 PS AWD (VR1),Бензин,5.0,10000000
+JAGUAR,F-TYPE SVR Coupe 5.0 V8 S/C 575 PS AWD (VR1),Бензин,5.0,10000000
+JAGUAR,XJ 5.0 V8; 510PS S/C LWB Autobiography,Бензин,5.0,10000000
+Jeep,Grand Cherokee,Бензин,6.2,10000000
+Lamborghini,Urus,Бензин,4.0,10000000
+Lamborghini,Urus S,Бензин,4.0,10000000
+Lamborghini,Urus Perfomante,Бензин,4.0,10000000
+Lamborghini,Urus SE,Бензин,4.0,10000000
+Lamborghini,"Revuelto 6.5 л, 1015 л.с.",Гибрид,6.5,10000000
+Lamborghini,Huracan,Бензин,5.2,10000000
+Lamborghini,Huracan 4 WD,Бензин,5.2,10000000
+Lamborghini,Huracan 4 WD Spyder,Бензин,5.2,10000000
+Land Rover,Defender (L663) 5.0 V8 525 PS AWD Auto V8 LE6,Бензин,5.0,10000000
+Land Rover,Defender 3Dr 5.0 V8 525 PS AWD Auto Carpathian Edition,Бензин,5.0,10000000
+Land Rover,Defender 5Dr 5.0 V8 525 PS AWD Auto Carpathian Edition,Бензин,5.0,10000000
+Land Rover,Range Rover 5.0L LWB V8 S/C SVAutobiography-TL7,Бензин,5.0,10000000
+Land Rover,Range Rover 5.0L V8 S/C SVAutobiography Dynamic-TL7,Бензин,5.0,10000000
+Land Rover,Range Rover 5.0L V8 S/C SVAutobiography-TL7,Бензин,5.0,10000000
+Land Rover,Range Rover LWB 4.4L SDV8 SVAutobiography-TL7,Дизель,4.4,10000000
+Land Rover,Range Rover 4.4L SDV8 Autobiography,Дизель,4.4,10000000
+Land Rover,Range Rover 4.4L SDV8 Fifty,Дизель,4.4,10000000
+Land Rover,Range Rover 4.4L SDV8 Fifty - LE7,Дизель,4.4,10000000
+Land Rover,Range Rover 5.0L LWB V8 S/C Autobiography,Бензин,5.0,10000000
+Land Rover,Range Rover 5.0L LWB V8 S/C Autobiography - TL6,Бензин,5.0,10000000
+Land Rover,Range Rover 5.0L LWB V8 S/C Fifty,Бензин,5.0,10000000
+Land Rover,Range Rover 5.0L LWB V8 S/C Fifty - LE7,Бензин,5.0,10000000
+Land Rover,Range Rover 5.0L V8 S/C Autobiography,Бензин,5.0,10000000
+Land Rover,Range Rover 5.0L V8 S/C Fifty,Бензин,5.0,10000000
+Land Rover,Range Rover 5.0L V8 S/C Fifty - LE7,Бензин,5.0,10000000
+Land Rover,Range Rover 5.0L V8 S/C SVA Dynamic Black,Бензин,5.0,10000000
+Land Rover,Range Rover 5.0L V8 S/C SVA Dynamic Black - LE5,Бензин,5.0,10000000
+Land Rover,Range Rover 5.0L V8 S/C SVAutobiography Dynamic,Бензин,5.0,10000000
+Land Rover,Range Rover 5.0L V8 S/C Vogue SE,Бензин,5.0,10000000
+Land Rover,Range Rover LWB 2.0L Si4 PHEV Autobiography,Гибрид,2.0,10000000
+Land Rover,Range Rover LWB 2.0L Si4 PHEV Autobiography - TL6,Гибрид,2.0,10000000
+Land Rover,Range Rover LWB 4.4L SDV8 Autobiography,Дизель,4.4,10000000
+Land Rover,Range Rover LWB 4.4L SDV8 Autobiography - TL6,Дизель,4.4,10000000
+Land Rover,Range Rover LWB 4.4L SDV8 Fifty,Дизель,4.4,10000000
+Land Rover,Range Rover LWB 4.4L SDV8 Fifty - LE7,Дизель,4.4,10000000
+Land Rover,Range Rover LWB 4.4L SDV8 SVAutobiography,Дизель,4.4,10000000
+Land Rover,Range Rover Sport V8 S/C 5.0 SVR,Бензин,5.0,10000000
+Land Rover,Range Rover Sport V8 S/C 5.0 SVR CARBON,Бензин,5.0,10000000
+Lexus,LC500,Бензин,5.0,10000000
+Lexus,LS350,Бензин,3.5,10000000
+Lexus,LS500,Бензин,3.4,10000000
+Lexus,LX500D,Дизель,3.3,10000000
+Lexus,LX600,Бензин,3.4,10000000
+LIXIANG,L9 4WD Max,Электрический,,10000000
+LIXIANG,L9 4WD ULTRA,Гибридный,1.5,10000000
+LIXIANG,L7 4WD ULTRA,Гибридный,1.5,10000000
+Maserati,Ghibh Modena S,Бензин,3.0,10000000
+Maserati,Ghibli Modena S Q4,Бензин,3.0,10000000
+Maserati,Ghibli S,Бензин,3.0,10000000
+Maserati,Ghibli Trofeo,Бензин,3.8,10000000
+Maserati,Levante GTS,Бензин,3.8,10000000
+Maserati,Levante MODENA,Бензин,3.0,10000000
+Maserati,Levante MODENA S,Бензин,3.0,10000000
+Maserati,Levante S,Бензин,3.0,10000000
+Maserati,Levante S Granlusso,Бензин,3.0,10000000
+Maserati,Levante S Gransport,Бензин,3.0,10000000
+Maserati,Levante Tributo,Бензин,3.0,10000000
+Maserati,Levante Trofeo,Бензин,3.8,10000000
+Maserati,Quattroporte,Бензин,3.0,10000000
+Maserati,Quattroporte GT,Бензин,3.0,10000000
+Maserati,Quattroporte GTS,Бензин,3.8,10000000
+Maserati,Quattroporte GTS Granlusso,Бензин,3.8,10000000
+Maserati,Quattroporte GTS GranSport,Бензин,3.8,10000000
+Maserati,Quattroporte Modena,Бензин,3.0,10000000
+Maserati,Quattroporte Modena Q4,Бензин,3.0,10000000
+Maserati,Quattroporte S Q4 GranSport,Дизель,3.0,10000000
+Maserati,Quattroporte Trofeo,Бензин,3.8,10000000
+McLaren,"570S 3.8 л, 570 л.с.",Бензин,3.8,10000000
+Mercedes-Benz,E 220d 4MATIC,Дизель,1.9,10000000
+Mercedes-Benz,E 200 4M Exclusive,Бензин,2.0,10000000
+Mercedes-Benz,E 300 4MATIC,Бензин,2.0,10000000
+Mercedes-Benz,G 350 d,Дизель,2.9,10000000
+Mercedes-Benz,G 400 d,Дизель,2.9,10000000
+Mercedes-Benz,G 400 d,Дизель,3.0,10000000
+Mercedes-Benz,G 450 d,Дизель,3.0,10000000
+Mercedes-Benz,G 500,Бензин,4.0,10000000
+Mercedes-Benz,GLC 200 4MATIC Coupe,Бензин,2.0,10000000
+Mercedes-Benz,GLC 300 4MATIC,Бензин,2.0,10000000
+Mercedes-Benz,GLC 300 4 MATIC Coupe,Бензин,2.0,10000000
+Mercedes-Benz,GLE 300 d 4MATIC Premium,Дизель,2.0,10000000
+Mercedes-Benz,GLE 300 d 4MATIC Premium,Дизель,1.9,10000000
+Mercedes-Benz,GLE 300 d 4MATIC Sport Plus,Дизель,1.9,10000000
+Mercedes-Benz,GLE 350 d 4MATIC купе,Дизель,3.0,10000000
+Mercedes-Benz,GLE 350 d 4MATIC купе,Дизель,2.9,10000000
+Mercedes-Benz,GLE 350 de 4MATIC Coupe,Гибрид,1.9,10000000
+Mercedes-Benz,GLE 400 d 4MATIC,Дизель,2.9,10000000
+Mercedes-Benz,GLE 400 d 4MATIC купе,Дизель,2.9,10000000
+Mercedes-Benz,GLE 450 4MATIC,Бензин,3.0,10000000
+Mercedes-Benz,GLE 450 4MATIC купе,Бензин,3.0,10000000
+Mercedes-Benz,GLE 53 AMG 4MATIC+ COUPE,Бензин,3.0,10000000
+Mercedes-Benz,GLS 400 d 4MATIC,Дизель,2.9,10000000
+Mercedes-Benz,GLS 450 4MATIC,Бензин,3.0,10000000
+Mercedes-Benz,Mercedes-AMG CLS 53 4MATIC,Бензин,3.0,10000000
+Mercedes-Benz,Mercedes-AMG E 53 4MATIC Кабриолет,Бензин,3.0,10000000
+Mercedes-Benz,Mercedes-AMG E 53 4MATIC Купе,Бензин,3.0,10000000
+Mercedes-Benz,Mercedes-AMG E 63 S 4MATIC +,Бензин,4.0,10000000
+Mercedes-Benz,Mercedes-AMG E 63 S 4MATIC седан,Бензин,4.0,10000000
+Mercedes-Benz,Mercedes-AMG G 63,Бензин,,10000000
+Mercedes-Benz,Mercedes-AMG GLC 43 4MATICКупе,Бензин,3.0,10000000
+Mercedes-Benz,Mercedes-AMG GLC 63 S 4MATIC,Бензин,4.0,10000000
+Mercedes-Benz,Mercedes-AMG GLC 63 S 4MATIC купе,Бензин,4.0,10000000
+Mercedes-Benz,Mercedes-AMG GLC 63 S 4MATIC+,Бензин,4.0,10000000
+Mercedes-Benz,Mercedes-AMG GLE 53 4MATIC внедорожник,Бензин,3.0,10000000
+Mercedes-Benz,Mercedes-AMG GLE 53 4MATIC купе,Бензин,3.0,10000000
+Mercedes-Benz,Mercedes-AMG GLE 53 4MATIC+,Бензин,3.0,10000000
+Mercedes-Benz,Mercedes-AMG GLE 63 S 4MATIC внедорожник,Бензин,4.0,10000000
+Mercedes-Benz,Mercedes-AMG GLE 63 S 4MATIC купе,Бензин,4.0,10000000
+Mercedes-Benz,Mercedes-AMG GLS 63 4MATIC,Бензин,4.0,10000000
+Mercedes-Benz,Mercedes-AMG GLS 63 4MATIC OC,Бензин,5.5,10000000
+Mercedes-Benz,Mercedes-AMG GT 43 4MATIC 4-дверное купе,Бензин,3.0,10000000
+Mercedes-Benz,Mercedes-AMG GT 53 4MATIC 4-дверное купе,Бензин,3.0,10000000
+Mercedes-Benz,Mercedes-AMG GT C roadster,Бензин,4.0,10000000
+Mercedes-Benz,Mercedes-AMG GT R Купе,Бензин,4.0,10000000
+Mercedes-Benz,Mercedes-AMG S 63 4MATIC Кабриолет,Бензин,5.5,10000000
+Mercedes-Benz,Mercedes-AMG S 63 4MATIC Купе,Бензин,5.5,10000000
+Mercedes-Benz,Mercedes-AMG S 63 4MATIC седан,Бензин,4.0,10000000
+Mercedes-Benz,Mercedes-AMG S 63 4 МATIC Купе,Бензин,4.0,10000000
+Mercedes-Benz,Mercedes-AMG S 65 L,Бензин,6.0,10000000
+Mercedes-Benz,Mercedes-AMG SL 63,Бензин,5.5,10000000
+Mercedes-Benz,Mercedes-Maybach S 450 4MATIC,Бензин,3.0,10000000
+Mercedes-Benz,Mercedes-Maybach S 560 4MATIC,Бензин,4.0,10000000
+Mercedes-Benz,Mercedes-Maybach S 650,Бензин,6.0,10000000
+Mercedes-Benz,Mersedes-AMG SL 63,Бензин,5.5,10000000
+Mercedes-Benz,Mersedes-AMG SL 65,Бензин,6.0,10000000
+Mercedes-Benz,S 350 d 4MATIC седан,Дизель,2.9,10000000
+Mercedes-Benz,S 450 4MATIC седан,Бензин,3.0,10000000
+Mercedes-Benz,S 560 4MATIC Купе,Бензин,4.0,10000000
+Mercedes-Benz,S 560 4MATIC седан,Бензин,4.0,10000000
+Mercedes-Benz,S 560 e седан,Бензин,3.0,10000000
+Mercedes-Benz,S 560 Кабриолет,Бензин,4.0,10000000
+Mercedes-Benz,S 600 длинная база,Бензин,6.0,10000000
+Mercedes-Benz,S 600 седан,Бензин,6.0,10000000
+Mercedes-Benz,Sprinter 317 L3H2,Дизель,1.9,10000000
+Mercedes-Benz,Sprinter 517 L4H2,Дизель,1.9,10000000
+Mercedes-Benz,V-class 220d AMG Line+ 4Matic,Дизель,2.1,10000000
+Mercedes-Benz,V-class 220d AMG Line+ 4Matic,Дизель,1.9,10000000
+Mercedes-Benz,V-class 250d AMG Line 4Matic,Дизель,2.1,10000000
+Mercedes-Benz,V-class 250d AMG Line 4Matic,Дизель,1.9,10000000
+Mercedes-Benz,V-class 250d AVG Collection 4Matic,Дизель,1.9,10000000
+Mercedes-Benz,V-class 250d EL AMG Line 4Matic,Дизель,1.9,10000000
+Mercedes-Benz,V-class 250d EL AVG Collection 4Matic,Дизель,2.1,10000000
+Mercedes-Benz,V-class 250d EL AVG Collection 4Matic,Дизель,1.9,10000000
+Mercedes-Benz,V-class 250d Executive 4Matic,Дизель,2.1,10000000
+Mercedes-Benz,V-class 300d AVG Collection 4Matic,Дизель,1.9,10000000
+Mercedes-Benz,V-class 300d EL AVG Collection 4Matic,Дизель,1.9,10000000
+Mercedes-Benz,V-class 300d Exclusive 4Matic,Дизель,1.9,10000000
+Mercedes-Benz,V-class AVANTGARDE 250d,Дизель,1.9,10000000
+Mercedes-Benz,V-class AVANTGARDE 300d,Дизель,1.9,10000000
+Mercedes-Benz,V-class EXCLUSIVE 220d,Дизель,1.9,10000000
+Mercedes-Benz,V-class EXCLUSIVE 250,Бензин,2.0,10000000
+Mercedes-Benz,V-class EXCLUSIVE 250d,Дизель,1.9,10000000
+Mercedes-Benz,V-class EXCLUSIVE 300d,Дизель,1.9,10000000
+M-HERO,M-HERO I,Гибрид,1.5,10000000
+Porsche,911,Бензин,3.8,10000000
+Porsche,911,Бензин,4.0,10000000
+Porsche,911 CARRERA 4 GTS,Бензин,3.0,10000000
+Porsche,911 CARRERA 4 GTS Cabriolet,Бензин,3.0,10000000
+Porsche,911 CARRERA 4S,Бензин,3.0,10000000
+Porsche,911 CARRERA GTS,Бензин,3.0,10000000
+Porsche,911 CARRERA GTS Cabriolet,Бензин,3.0,10000000
+Porsche,911 GT3,Бензин,4.0,10000000
+Porsche,911 Targa 4,Бензин,3.0,10000000
+Porsche,911 Targa 4 GTS,Бензин,3.0,10000000
+Porsche,911 Targa 4S,Бензин,3.0,10000000
+Porsche,911 Turbo Cabriolet,Бензин,3.8,10000000
+Porsche,Cayenne,Бензин,4.0,10000000
+Porsche,Cayenne Turbo,Бензин,4.0,10000000
+Porsche,Cayenne Turbo S E-Hybrid,Бензин,4.0,10000000
+Porsche,Panamera,Бензин,4.0,10000000
+Porsche,Panamera 4S E-Hybrid sport turismo,Бензин,2.9,10000000
+Porsche,Panamera 4S E-Hybrid,Бензин,2.9,10000000
+Porsche,Panamera 4s sport turismo,Бензин,2.9,10000000
+Porsche,Panamera GTS,Бензин,4.0,10000000
+Porsche,Panamera GTS sport turismo,Бензин,4.0,10000000
+Porsche,Panamera Turbo S,Бензин,4.0,10000000
+Porsche,Taycan Turbo,Электрический,,10000000
+Porsche,Taycan Turbo Cross Turismo,Электрический,,10000000
+Porsche,Taycan Turbo S,Электрический,,10000000
+Porsche,Taycan Turbo S Cross Turismo,Электрический,,10000000
+SERES,M9,Гибрид,1.5,10000000
+Tank,700 Hi-Performance/Техно Премиум,Гибрид,3.0,10000000
+Tank,700 Edition One/Е1,Гибрид,3.0,10000000
+Tank,700 Superior 3.0T/Премиум,Бензин,3.0,10000000
+Toyota,Alphard IV 2.5 HEV CVT,Гибрид,2.5,10000000
+Toyota,Land Cruiser 300,Дизель,3.3,10000000
+Toyota,Land Cruiser 300,Бензин,3.4,10000000
+Volkswagen,Touareg III,Дизель,3.0,10000000
+Volvo,XC90 Recharge Ultimate,Гибрид,2.0,10000000
+Voyah,DREAM EVR long range,Гибрид,1.5,10000000
+Xiaomi,SU7 Ultra,Электрический,,10000000
+Zeekr,009 4WD WE EDITION,Электрический,,10000000
+Zeekr,009 Six-seat four-wheel drive,Электрический,,10000000
+Zeekr,009 Brilliance,Электрический,,10000000
+Zeekr,001 FR,Электрический,,10000000
+Aston Martin,DB12 Volante,Бензин,4.0,15000000
+Aston Martin,DB11 AMR Coupe V12,Бензин,5.2,15000000
+Aston Martin,DB11 AMR Coupe V12 Halo,Бензин,5.2,15000000
+Aston Martin,DB11 Coupe V12,Бензин,5.2,15000000
+Aston Martin,DB11 Coupe V8,Бензин,4.0,15000000
+Aston Martin,DB11 V12,Бензин,5.2,15000000
+Aston Martin,DB11 V8,Бензин,4.0,15000000
+Aston Martin,DB11 V8 Volante,Бензин,4.0,15000000
+Aston Martin,DB11 Volante V8,Бензин,4.0,15000000
+Aston Martin,DB9 GT Coupe Bond Edition,Бензин,5.9,15000000
+Aston Martin,DBS Superleggera,Бензин,5.2,15000000
+Aston Martin,DBS Superleggera Coupe,Бензин,5.2,15000000
+Aston Martin,DBX,Бензин,4.0,15000000
+Aston Martin,DBX 707,Бензин,4.0,15000000
+Aston Martin,DBX Superleggera,Бензин,5.2,15000000
+Aston Martin,DBX Superleggera Coupe,Бензин,5.9,15000000
+Aston Martin,DBX Superleggera Volante,Бензин,5.9,15000000
+Aston Martin,DBX Superleggera Volante,Бензин,5.2,15000000
+Aston Martin,DBX V8,Бензин,4.0,15000000
+Aston Martin,Vanquish Carbon Coupe,Бензин,5.9,15000000
+Aston Martin,Vanquish Carbon Volante,Бензин,5.9,15000000
+Aston Martin,Vanquish Coupe,Бензин,5.9,15000000
+Aston Martin,Vanquish S Coupe V12,Бензин,5.9,15000000
+Aston Martin,Vanquish S Ultimate Coupe V12,Бензин,5.9,15000000
+Aston Martin,Vanquish S Ultimate Volante V12,Бензин,5.9,15000000
+Aston Martin,Vanquish Volante,Бензин,5.9,15000000
+Audi,Q7 3.0 TDI 286 hp quattro,Дизель,3.0,15000000
+Audi,A8 60 TFSI V8 338 kW tiptronic quattro,Бензин,4.0,15000000
+Audi,A8 L 60 TFSI V8 338 kW tiptronic quattro,Бензин,4.0,15000000
+Audi,Q8 3.0 TDI (231 hp) quattro tiptronic 2024 MY,Дизель,3.0,15000000
+Audi,Q8 3.0 TDI (286 hp) quattro tiptronic 2024 MY,Дизель,3.0,15000000
+Audi,RSQ8 TFSI V8 441 kW tiptronic quattro,Бензин,4.0,15000000
+Audi,S8 TFSI V8 420 kW tiptronic quattro,Бензин,4.0,15000000
+AURUS,Komendant,Гибрид,4.4,15000000
+AURUS,Limousine,Бензин,4.4,15000000
+AURUS,Senat,Бензин,4.4,15000000
+AURUS,Senat,Гибрид,4.4,15000000
+AURUS,Senat Long,Бензин,4.4,15000000
+AURUS,Senat Long,Гибрид,4.4,15000000
+Bentley,Bentayga Mulliner,Бензин,6.0,15000000
+Bentley,Bentayga S,Бензин,4.0,15000000
+Bentley,Bentayga Speed,Бензин,6.0,15000000
+Bentley,Bentayga V8,Бензин,4.0,15000000
+Bentley,Bentayga W12,Бензин,6.0,15000000
+Bentley,Continental GT,Бензин,6.0,15000000
+Bentley,Continental GT Convertible,Бензин,6.0,15000000
+Bentley,Continental GT Speed,Бензин,6.0,15000000
+Bentley,Continental GT Speed,Бензин,6.0,15000000
+Bentley,Continental GT Speed Convertible,Бензин,6.0,15000000
+Bentley,Continental GT Speed Convertible,Бензин,6.0,15000000
+Bentley,Continental GT Supersports,Бензин,6.0,15000000
+Bentley,Continental GT Supersports Convertible,Бензин,6.0,15000000
+Bentley,Continental GT V8,Бензин,4.0,15000000
+Bentley,Continental GT V8 Convertible,Бензин,4.0,15000000
+Bentley,Continental GT V8 Mulliner,Бензин,4.0,15000000
+Bentley,Continental GT V8 Mulliner Convertible,Бензин,4.0,15000000
+Bentley,Continental GT-3 R,Бензин,4.0,15000000
+Bentley,Continental GTС V8,Бензин,4.0,15000000
+Bentley,Flying Spur Hybrid,Гибрид,2.9,15000000
+Bentley,Flying Spur V8,Бензин,4.0,15000000
+Bentley,Flying Spur V8 Mulliner,Бензин,4.0,15000000
+Bentley,Flying Spur W12,Бензин,6.0,15000000
+Bentley,Flying Spur W12,Бензин,6.0,15000000
+Bentley,Flying Spur W12 Mulliner,Бензин,6.0,15000000
+Bentley,Flying Spur W12 S,Бензин,6.0,15000000
+Bentley,Mulsanne,Бензин,6.8,15000000
+Bentley,Mulsanne Extended Wheelbase,Бензин,6.0,15000000
+Bentley,Mulsanne Speed,Бензин,6.8,15000000
+BMW,740d xDrive Sedan,Дизель,3.0,15000000
+BMW,M5 CS,Бензин,4.4,15000000
+BMW,M760Li xDrive,Бензин,6.6,15000000
+BMW,M8 Cabrio,Бензин,4.4,15000000
+BMW,X5 M LCI Competition,Бензин,4.4,15000000
+BMW,X5 M60i xDrive LCI,Бензин,4.4,15000000
+BMW,X5 xDrive30d LCI,Дизель,3.0,15000000
+BMW,X5 xDrive40d,Дизель,3.0,15000000
+BMW,X5 xDrive40i LCI,Бензин,3.0,15000000
+BMW,X6 xDrive30d LCI,Дизель,3.0,15000000
+BMW,X6 xDrive40i LCI,Бензин,3.0,15000000
+BMW,X6 M LCI Competition,Бензин,4.4,15000000
+BMW,X6 M60i LCI xDrive,Бензин,4.4,15000000
+BMW,X6 xDrive30d LCI,Дизель,3.0,15000000
+BMW,X6 xDrive40i LCI,Бензин,3.0,15000000
+BMW,X7 xDrive40d LCI,Дизель,3.0,15000000
+BMW,X7 xDrive40i LCI,Бензин,3.0,15000000
+BMW,XM,Гибрид,4.4,15000000
+Bugatti,Veyron,Бензин,8.0,15000000
+Bugatti,Veyron Grand Sport Vitesse,Бензин,8.0,15000000
+Bugatti,Veyron Super Sport,Бензин,8.0,15000000
+Byd,Yangwang U8 Deluxe Edition,Гибрид,2.0,15000000
+Cadillac,Sport Platinum,Бензин,6.2,15000000
+Cadillac,ESV Sport Platinum,Бензин,6.2,15000000
+Cadillac,Premium Luxury,Бензин,6.2,15000000
+Cadillac,Premium Luxury Platinum,Бензин,6.2,15000000
+Dodge,Challenger SRT Demon III,Бензин,6.2,15000000
+Dodge,Durango SRT III Рестайлинг,Бензин,6.2,15000000
+Ferrari,458 Italia,Бензин,4.5,15000000
+Ferrari,488 GTB,Бензин,3.9,15000000
+Ferrari,488 Pista,Бензин,3.9,15000000
+Ferrari,488 Pista Spider,Бензин,3.9,15000000
+Ferrari,488 Spider,Бензин,3.9,15000000
+Ferrari,812 GTS,Бензин,6.5,15000000
+Ferrari,812 Superfast,Бензин,6.5,15000000
+Ferrari,California T,Бензин,3.9,15000000
+Ferrari,F12,Бензин,6.3,15000000
+Ferrari,F12 Berlinetta,Бензин,6.3,15000000
+Ferrari,F8 Spider,Бензин,3.9,15000000
+Ferrari,F8 Tributo,Бензин,3.9,15000000
+Ferrari,FF,Бензин,6.3,15000000
+Ferrari,GTC4LUSSO,Бензин,6.3,15000000
+Ferrari,GTC4LUSSO T,Бензин,3.9,15000000
+Ferrari,Portofino,Бензин,3.9,15000000
+Ferrari,Portofino M,Бензин,3.9,15000000
+Ferrari,Roma,Бензин,3.9,15000000
+Ferrari,SF90 Spider,Бензин,4.0,15000000
+Ferrari,SF90 Stradale,Бензин,3.9,15000000
+Ferrari,SF90 Stradale,Бензин,4.0,15000000
+Hongqi,H9+ Edition One,Бензин,3.0,15000000
+Lamborghini,Aventador,Бензин,6.5,15000000
+Lamborghini,Aventador Coupe,Бензин,6.5,15000000
+Lamborghini,Aventador Coupe SV,Бензин,6.5,15000000
+Lamborghini,Aventador Roadster,Бензин,6.5,15000000
+Lamborghini,Aventador S,Бензин,6.5,15000000
+Lamborghini,Aventador S Coupe,Бензин,6.5,15000000
+Lamborghini,Aventador S CPE,Бензин,6.5,15000000
+Lamborghini,Aventador S RDS,Бензин,6.5,15000000
+Lamborghini,Aventador S Roadster,Бензин,6.5,15000000
+Lamborghini,Aventador SVJ Coupe,Бензин,6.5,15000000
+Lamborghini,Aventador SVJ CPE,Бензин,6.5,15000000
+Lamborghini,Aventador SVJ RDS,Бензин,6.5,15000000
+Lamborghini,Aventador SVJ Roadster,Бензин,6.5,15000000
+Lamborghini,Aventador Ultimae Coupe,Бензин,6.5,15000000
+Lamborghini,Aventador Ultimae Roadster,Бензин,6.5,15000000
+Lamborghini,Huracan AWD,Бензин,5.2,15000000
+Lamborghini,Huracan Coupe Performante,Бензин,5.2,15000000
+Lamborghini,Huracan EVO 2WD Coupe,Бензин,5.2,15000000
+Lamborghini,Huracan EVO 4WD Coupe,Бензин,5.2,15000000
+Lamborghini,Huracan RWD,Бензин,5.2,15000000
+Lamborghini,Huracan Spyder,Бензин,5.2,15000000
+Lamborghini,Huracan STO,Бензин,5.2,15000000
+Lamborghini,Urus,Бензин,4.0,15000000
+Lamborghini,Urus,Бензин,4.0,15000000
+Lamborghini,Urus V8,Бензин,4.0,15000000
+Land Rover,Range Rover 3.0D i6 350 Autobiography,Дизель,3.0,15000000
+Land Rover,Range Rover 4.4L V8 S/C Autobiography,Бензин,4.4,15000000
+Land Rover,Range Rover 5.0L LWB V8 S/C SVAutobiography,Бензин,5.0,15000000
+Land Rover,Range Rover 7s LWB 3.0D i6 350 Autobiography,Дизель,3.0,15000000
+Land Rover,Range Rover LWB 3.0D i6 350 Autobiography,Дизель,3.0,15000000
+Land Rover,Range Rover LWB 4.4L V8 S/C Autobiography,Бензин,4.4,15000000
+Land Rover,Range Rover Sport SV Edition One,Бензин,4.4,15000000
+Lotus,4WD R+,Электрический,,15000000
+Lotus,4WD S+,Электрический,,15000000
+Maserati,Ghibli Trofeo,Бензин,3.8,15000000
+Maserati,Levante Trofeo,Бензин,3.8,15000000
+Maserati,MC EDITION,Бензин,3.8,15000000
+Maserati,Quattroporte Trofeo,Бензин,3.8,15000000
+McLaren,720S Spider,Бензин,4.0,15000000
+McLaren,Senna,Бензин,4.0,15000000
+McLaren,570GT I,Бензин,3.8,15000000
+McLaren,Artura,Гибрид,3.0,15000000
+McLaren,750S Spider,Бензин,4.0,15000000
+Mercedes-Benz,Maybach G 650 Landaulet,Бензин,6.0,15000000
+Mercedes-Benz,AMG GT R,Бензин,4.0,15000000
+Mercedes-Benz,EQS 580 4MATIC PREMIUM PLUS,Электрический,,15000000
+Mercedes-Benz,G 350 d,Дизель,2.9,15000000
+Mercedes-Benz,G 400 d,Дизель,2.9,15000000
+Mercedes-Benz,G 500,Бензин,4.0,15000000
+Mercedes-Benz,G 500 4x4,Бензин,4.0,15000000
+Mercedes-Benz,G 63 AMG,Бензин,4.0,15000000
+Mercedes-Benz,G 65 AMG,Бензин,6.0,15000000
+Mercedes-Benz,GLE 300 d 4MATIC Coupe FL,Дизель,2.0,15000000
+Mercedes-Benz,GLE 300 d 4MATIC FL,Дизель,2.0,15000000
+Mercedes-Benz,GLE 400 d 4MATIC Luxury,Дизель,2.9,15000000
+Mercedes-Benz,GLE 450 4MATIC FL,Бензин,3.0,15000000
+Mercedes-Benz,GLE 450 d 4MATIC,Дизель,3.0,15000000
+Mercedes-Benz,GLE 450 d 4MATIC Coupe FL,Дизель,3.0,15000000
+Mercedes-Benz,GLE 450 d 4MATIC FL,Дизель,3.0,15000000
+Mercedes-Benz,GLE 53 AMG 4MATIC+ COUPE FL,Бензин,4.0,15000000
+Mercedes-Benz,GLE 63 AMG S 4MATIC+COUPE,Бензин,4.0,15000000
+Mercedes-Benz,GLE 63 AMG S 4MATIC+COUPE FL,Бензин,4.0,15000000
+Mercedes-Benz,GLE 63 d 4 МATIC Luxury,Дизель,2.9,15000000
+Mercedes-Benz,GLE 63 AMG S 4MATIC+ FL,Бензин,4.0,15000000
+Mercedes-Benz,GLS 350 d 4MATIC,Дизель,3.0,15000000
+Mercedes-Benz,GLS 400 d 4MATIC Luxury,Дизель,2.9,15000000
+Mercedes-Benz,GLS 400 d 4MATIC Premium,Дизель,2.9,15000000
+Mercedes-Benz,GLS 450 4MATIC FL,Бензин,3.0,15000000
+Mercedes-Benz,GLS 450 4MATIC Sport,Бензин,3.0,15000000
+Mercedes-Benz,GLS 450 d 4MATIC,Дизель,3.0,15000000
+Mercedes-Benz,GLS 450 d 4MATIC FL,Дизель,3.0,15000000
+Mercedes-Benz,GLS 63 AMG 4MATIC+,Бензин,4.0,15000000
+Mercedes-Benz,GLS 63 AMG 4MATIC+ FL,Бензин,4.0,15000000
+Mercedes-Benz,Mercedes-AMG G 63,Бензин,4.0,15000000
+Mercedes-Benz,Mercedes-AMG G 65,Бензин,6.0,15000000
+Mercedes-Benz,Mercedes-AMG GLE 53 4MATIC+,Бензин,3.0,15000000
+Mercedes-Benz,Mercedes-AMG GLE 53 4MATIC+купе,Бензин,3.0,15000000
+Mercedes-Benz,Mercedes-AMG GLE 63 S 4 МATIC+,Бензин,4.0,15000000
+Mercedes-Benz,Mercedes-AMG GLE 63 S 4 МATIC+купе,Бензин,4.0,15000000
+Mercedes-Benz,Mercedes-AMG GLS 63 4MATIC,Бензин,4.0,15000000
+Mercedes-Benz,Mercedes-AMG GLS 63 4MATIC+,Бензин,4.0,15000000
+Mercedes-Benz,Mercedes-AMG GT 53 4MATIC+,Бензин,3.0,15000000
+Mercedes-Benz,Mercedes-AMG GT 63 S 4MATIC+,Бензин,4.0,15000000
+Mercedes-Benz,Mercedes-AMG GT Black Series Купе,Бензин,4.0,15000000
+Mercedes-Benz,Mercedes-AMG GT R Купе,Бензин,4.0,15000000
+Mercedes-Benz,Mercedes-AMG S 63 4 МATIC Кабриолет,Бензин,4.0,15000000
+Mercedes-Benz,Mercedes-AMG S 65 Кабриолет,Бензин,6.0,15000000
+Mercedes-Benz,Mercedes-AMG S 65 Купе,Бензин,6.0,15000000
+Mercedes-Benz,Mercedes-AMG S 65 седан,Бензин,6.0,15000000
+Mercedes-Benz,Mercedes-AMG SL 65,Бензин,6.0,15000000
+Mercedes-Benz,Mercedes-Maybach GLS 600 4MATIC,Бензин,4.0,15000000
+Mercedes-Benz,Mercedes-Maybach GLS 600 4MATIC FL,Бензин,4.0,15000000
+Mercedes-Benz,Mercedes-Maybach S 450 4MATIC,Бензин,3.0,15000000
+Mercedes-Benz,Mercedes-Maybach S 580 4MATIC,Бензин,4.0,15000000
+Mercedes-Benz,Mercedes-Maybach S 650,Бензин,6.0,15000000
+Mercedes-Benz,Mercedes-Maybach S 680 4MATIC,Бензин,6.0,15000000
+Mercedes-Benz,S 350 d 4MATIC,Дизель,2.9,15000000
+Mercedes-Benz,S 450 4MATIC,Бензин,3.0,15000000
+Mercedes-Benz,S 450 4 МATIC Long,Бензин,3.0,15000000
+Mercedes-Benz,S 450 d 4MATIC Long,Дизель,2.9,15000000
+Mercedes-Benz,S 580 4MATIC,Бензин,4.0,15000000
+Mercedes-Benz,S 580 4MATIC седан,Бензин,4.0,15000000
+Mercedes-Benz,S 65 AMG длинная база,Бензин,6.0,15000000
+Mercedes-Benz,S 65 AMG купе,Бензин,6.0,15000000
+Mercedes-Benz,S 680 GUARD 4MATIC,Бензин,6.0,15000000
+Mercedes-Benz,S 680 GUARD 4MATIC седан,Бензин,6.0,15000000
+Mercedes-Benz,SL 65 AMG,Бензин,6.0,15000000
+Mercedes-Benz,SL 680 Mercedes-Maybach,Бензин,4.0,15000000
+Mercedes-Benz,Sprinter VS30 4325 517 CDI,Дизель,1.9,15000000
+Mercedes-Benz,V 300 d 4MATIC Long,Дизель,1.9,15000000
+Mercedes-Benz,V 300 d Extra Long AVANTGARDE 4MATIC FL,Дизель,1.9,15000000
+Mercedes-Benz,V 300 d Extra Long EXCLUSIVE 4MATIC FL,Дизель,1.9,15000000
+Mercedes-Benz,V 300 d Long AVANTGARDE 4MATIC FL,Дизель,1.9,15000000
+Mercedes-Benz,V 300 d Long EXCLUSIVE 4MATIC FL,Дизель,1.9,15000000
+Mercedes-Benz,V300 d AVG extra long,Дизель,1.9,15000000
+Mercedes-Benz,S-Класс 580 Long 4MATIC,Бензин,4.0,15000000
+Mercedes-Benz,G-Класс 400 d,Дизель,2.9,15000000
+Mercedes-Benz,G-Класс EQ Technology,Электрический,,15000000
+Mercedes-Benz,G-Класс 450 d,Дизель,3.0,15000000
+Mercedes-Benz,G-Класс 500,Бензин,3.0,15000000
+M-HERO,917 EVR,Гибрид,1.5,15000000
+Nissan,GT-R Nismo I,Бензин,3.8,15000000
+Porsche,911,Бензин,3.7,15000000
+Porsche,911,Бензин,3.8,15000000
+Porsche,911 TURBO,Бензин,3.7,15000000
+Porsche,911 Turbo S,Бензин,3.7,15000000
+Porsche,Cayenne,Бензин,3.0,15000000
+Porsche,Cayenne Coupe,Бензин,3.0,15000000
+Porsche,Cayenne Turbo GT,Бензин,4.0,15000000
+Porsche,Panamera Exclusive Series,Бензин,4.8,15000000
+Porsche,Panamera Turbo S e-hybrid,Бензин,4.0,15000000
+Porsche,Panamera Turbo S e-hybrid sport turismo,Бензин,4.0,15000000
+Porsche,Panamera Turbo S sport turismo,Бензин,4.0,15000000
+Rolls-Royce,CULLINAN,Бензин,,15000000
+Rolls-Royce,CULLINAN Black Badge,Бензин,,15000000
+Rolls-Royce,Dawn,Бензин,,15000000
+Rolls-Royce,Dawn Black Badge,Бензин,6.6,15000000
+Rolls-Royce,Ghost,Бензин,,15000000
+Rolls-Royce,Ghost Black Badge,Бензин,6.7,15000000
+Rolls-Royce,Ghost EWB,Бензин,,15000000
+Rolls-Royce,Ghost Extended,Бензин,6.7,15000000
+Rolls-Royce,Phantom,Бензин,,15000000
+Rolls-Royce,Phantom Coupe,Бензин,6.7,15000000
+Rolls-Royce,Phantom DHC,Бензин,,15000000
+Rolls-Royce,Phantom Drophead Coupe,Бензин,6.7,15000000
+Rolls-Royce,Phantom EWB,Бензин,,15000000
+Rolls-Royce,Phantom Extended,Бензин,6.7,15000000
+Rolls-Royce,Wraith,Бензин,,15000000
+Rolls-Royce,Wraith Black Badge,Бензин,,15000000
+Tesla,Cibertrack,Электрический,,15000000

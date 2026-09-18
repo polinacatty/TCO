@@ -1,0 +1,33 @@
+id,code,name,default_norm_hours,category
+1,oil_change_engine,Замена моторного масла,0.5,fluids
+2,oil_change_atf,Замена масла АКПП/CVT/DCT,1.0,fluids
+3,oil_change_mt,Замена масла МКПП,0.5,fluids
+4,coolant_change,Замена антифриза,1.0,fluids
+5,brake_fluid_change,Замена тормозной жидкости,0.5,fluids
+6,power_steering_fluid_change,Замена жидкости ГУР,0.5,fluids
+7,rear_diff_oil_change,Замена масла заднего редуктора,0.5,fluids
+8,washer_fluid_refill,Доливка омывайки,0.1,fluids
+9,oil_filter,Замена масляного фильтра,0.1,filters
+10,air_filter,Замена воздушного фильтра,0.2,filters
+11,cabin_filter,Замена салонного фильтра,0.3,filters
+12,fuel_filter,Замена топливного фильтра,0.5,filters
+13,brake_pads_front,Замена тормозных колодок передних,0.8,brakes
+14,brake_pads_rear,Замена тормозных колодок задних,0.8,brakes
+15,brake_discs_front,Замена тормозных дисков передних,1.2,brakes
+16,brake_discs_rear,Замена тормозных дисков задних,1.2,brakes
+17,brake_hoses,Замена тормозных шлангов,0.8,brakes
+18,timing_belt_kit,Замена ремня ГРМ с роликами и помпой,4.0,belts
+19,accessory_belt,Замена ремня навесных агрегатов,0.5,belts
+20,timing_chain_inspection,Диагностика цепи ГРМ,0.5,belts
+21,spark_plugs,Замена свечей зажигания,0.7,electrics
+22,glow_plugs,Замена свечей накала (дизель),1.0,electrics
+23,battery_replacement,Замена аккумулятора,0.3,electrics
+24,headlight_bulbs,Замена ламп фар,0.3,electrics
+25,wiper_blades_front,Замена щёток стеклоочистителя передних,0.1,body
+26,wiper_blades_rear,Замена щётки стеклоочистителя задней,0.1,body
+27,anticorrosion_treatment,Антикоррозийная обработка кузова,4.0,body
+28,diagnostics_full,Комплексная компьютерная диагностика,1.0,other
+29,wheel_alignment,Сход-развал,1.5,other
+30,wheel_balancing,Балансировка колёс,0.5,other
+31,tyre_swap_seasonal,Сезонная переобувка,1.0,other
+32,ac_service,Заправка/обслуживание кондиционера,1.0,other
